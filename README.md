@@ -12,20 +12,20 @@
 [![Twitterx][twitterx-shield]][twitterx-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-[license-shield]: https://img.shields.io/github/license/Genocs/genocs-library?color=2da44e&style=flat-square
-[license-url]: https://github.com/Genocs/genocs-library/blob/main/LICENSE
-[build-shield]: https://github.com/Genocs/genocs-library/actions/workflows/build_and_test.yml/badge.svg?branch=main
-[build-url]: https://github.com/Genocs/genocs-library/actions/workflows/build_and_test.yml
+[license-shield]: https://img.shields.io/github/license/Genocs/genocs-aspire?color=2da44e&style=flat-square
+[license-url]: https://github.com/Genocs/genocs-aspire/blob/main/LICENSE
+[build-shield]: https://github.com/Genocs/genocs-aspire/actions/workflows/build_and_test.yml/badge.svg?branch=main
+[build-url]: https://github.com/Genocs/genocs-aspire/actions/workflows/build_and_test.yml
 [downloads-shield]: https://img.shields.io/nuget/dt/Genocs.Microservice.Template.svg?color=2da44e&label=downloads&logo=nuget
 [downloads-url]: https://www.nuget.org/packages/Genocs.Microservice.Template
-[contributors-shield]: https://img.shields.io/github/contributors/Genocs/genocs-library.svg?style=flat-square
-[contributors-url]: https://github.com/Genocs/genocs-library/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Genocs/genocs-library?style=flat-square
-[forks-url]: https://github.com/Genocs/genocs-library/network/members
-[stars-shield]: https://img.shields.io/github/stars/Genocs/genocs-library.svg?style=flat-square
-[stars-url]: https://img.shields.io/github/stars/Genocs/genocs-library?style=flat-square
-[issues-shield]: https://img.shields.io/github/issues/Genocs/genocs-library?style=flat-square
-[issues-url]: https://github.com/Genocs/genocs-library/issues
+[contributors-shield]: https://img.shields.io/github/contributors/Genocs/genocs-aspire.svg?style=flat-square
+[contributors-url]: https://github.com/Genocs/genocs-aspire/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Genocs/genocs-aspire?style=flat-square
+[forks-url]: https://github.com/Genocs/genocs-aspire/network/members
+[stars-shield]: https://img.shields.io/github/stars/Genocs/genocs-aspire.svg?style=flat-square
+[stars-url]: https://img.shields.io/github/stars/Genocs/genocs-aspire?style=flat-square
+[issues-shield]: https://img.shields.io/github/issues/Genocs/genocs-aspire?style=flat-square
+[issues-url]: https://github.com/Genocs/genocs-aspire/issues
 [discord-shield]: https://img.shields.io/discord/1106846706512953385?color=%237289da&label=Discord&logo=discord&logoColor=%237289da&style=flat-square
 [discord-url]: https://discord.com/invite/fWwArnkV
 [gitter-shield]: https://img.shields.io/badge/chat-on%20gitter-blue.svg
