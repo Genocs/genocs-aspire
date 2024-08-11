@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
 		<OutputType>Exe</OutputType>
@@ -9,14 +9,21 @@
 		<UserSecretsId>Genocs</UserSecretsId>
 	</PropertyGroup>
 
+    <ItemGroup>
+        <PackageReference Include="Aspire.Hosting.AppHost" Version="8.1.0" />
+        <PackageReference Include="Aspire.Hosting.Redis" Version="8.1.0" />
+        <PackageReference Include="Aspire.Hosting.RabbitMQ" Version="8.1.0" />
+        <PackageReference Include="System.Text.Json" Version="8.0.4" />
+    </ItemGroup>
+
 	<ItemGroup>
 		<ProjectReference Include="..\GenocsAspire.ApiService\GenocsAspire.ApiService.csproj" />
-		<ProjectReference Include="..\GenocsAspire.Web\GenocsAspire.Web.csproj" />
-	</ItemGroup>
+        <ProjectReference Include="..\GenocsAspire.Web\GenocsAspire.Web.csproj" />
 
-	<ItemGroup>
-		<PackageReference Include="Aspire.Hosting.AppHost" Version="8.1.0" />
-		<PackageReference Include="Aspire.Hosting.Redis" Version="8.1.0" />
-	</ItemGroup>
-
+        <ProjectReference Include="..\api-gateway\GenocsAspire.APIGateway\GenocsAspire.APIGateway.csproj" />
+        <ProjectReference Include="..\identities\GenocsAspire.IdentitiesApiService\GenocsAspire.IdentitiesApiService.csproj" />
+        <ProjectReference Include="..\products\GenocsAspire.ProductsApiService\GenocsAspire.ProductsApiService.csproj" />
+        <ProjectReference Include="..\orders\GenocsAspire.OrdersApiService\GenocsAspire.OrdersApiService.csproj" />
+        <ProjectReference Include="..\notifications\GenocsAspire.SignalRApiService\GenocsAspire.SignalRApiService.csproj" />
+    </ItemGroup>
 </Project>

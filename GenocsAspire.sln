@@ -19,6 +19,30 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Solution Items", "_Solutio
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "api-gateway", "api-gateway", "{EBE169F5-3815-4216-988A-7D6E626EE226}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "products", "products", "{54281830-4A6F-4A9E-ABC5-3DB8DF53C362}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "orders", "orders", "{CCF0013D-31E3-47C4-BDE0-D103E665D866}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "identities", "identities", "{BE256485-9E7F-4E44-A004-508E3A49216C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "notifications", "notifications", "{EA588CBB-B4DF-4C28-B517-0672159D7EC4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenocsAspire.APIGateway", "src\api-gateway\GenocsAspire.APIGateway\GenocsAspire.APIGateway.csproj", "{41B506C8-23E5-426E-889E-6481E1431310}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenocsAspire.ProductsApiService", "src\products\GenocsAspire.ProductsApiService\GenocsAspire.ProductsApiService.csproj", "{0ADB7CED-6EB8-465F-A6EC-4553CCAE1FAF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenocsAspire.OrdersApiService", "src\orders\GenocsAspire.OrdersApiService\GenocsAspire.OrdersApiService.csproj", "{B655A516-D3E4-4E5A-9317-E75C8163680E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenocsAspire.SignalRApiService", "src\notifications\GenocsAspire.SignalRApiService\GenocsAspire.SignalRApiService.csproj", "{680D43BC-46BE-4788-AD9A-8A3C824AE6DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{78208E38-864F-4FC0-8012-4D96AEDD6178}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenocsAspire.Identities.Application", "src\identities\GenocsAspire.Identities.Application\GenocsAspire.Identities.Application.csproj", "{86BAB8A0-D8B0-4AD7-B0CC-0658DE7147C5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenocsAspire.IdentitiesApiService", "src\identities\GenocsAspire.IdentitiesApiService\GenocsAspire.IdentitiesApiService.csproj", "{5C91A2D9-08A1-4BA6-A7CE-FFC3E62F47AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,9 +69,42 @@ Global
 		{D265E11B-579E-4266-9C16-01A8D4BB4272}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D265E11B-579E-4266-9C16-01A8D4BB4272}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D265E11B-579E-4266-9C16-01A8D4BB4272}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41B506C8-23E5-426E-889E-6481E1431310}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41B506C8-23E5-426E-889E-6481E1431310}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41B506C8-23E5-426E-889E-6481E1431310}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41B506C8-23E5-426E-889E-6481E1431310}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0ADB7CED-6EB8-465F-A6EC-4553CCAE1FAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ADB7CED-6EB8-465F-A6EC-4553CCAE1FAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ADB7CED-6EB8-465F-A6EC-4553CCAE1FAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ADB7CED-6EB8-465F-A6EC-4553CCAE1FAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B655A516-D3E4-4E5A-9317-E75C8163680E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B655A516-D3E4-4E5A-9317-E75C8163680E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B655A516-D3E4-4E5A-9317-E75C8163680E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B655A516-D3E4-4E5A-9317-E75C8163680E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{680D43BC-46BE-4788-AD9A-8A3C824AE6DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{680D43BC-46BE-4788-AD9A-8A3C824AE6DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{680D43BC-46BE-4788-AD9A-8A3C824AE6DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{680D43BC-46BE-4788-AD9A-8A3C824AE6DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86BAB8A0-D8B0-4AD7-B0CC-0658DE7147C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86BAB8A0-D8B0-4AD7-B0CC-0658DE7147C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86BAB8A0-D8B0-4AD7-B0CC-0658DE7147C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86BAB8A0-D8B0-4AD7-B0CC-0658DE7147C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C91A2D9-08A1-4BA6-A7CE-FFC3E62F47AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C91A2D9-08A1-4BA6-A7CE-FFC3E62F47AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C91A2D9-08A1-4BA6-A7CE-FFC3E62F47AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C91A2D9-08A1-4BA6-A7CE-FFC3E62F47AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D265E11B-579E-4266-9C16-01A8D4BB4272} = {78208E38-864F-4FC0-8012-4D96AEDD6178}
+		{41B506C8-23E5-426E-889E-6481E1431310} = {EBE169F5-3815-4216-988A-7D6E626EE226}
+		{0ADB7CED-6EB8-465F-A6EC-4553CCAE1FAF} = {54281830-4A6F-4A9E-ABC5-3DB8DF53C362}
+		{B655A516-D3E4-4E5A-9317-E75C8163680E} = {CCF0013D-31E3-47C4-BDE0-D103E665D866}
+		{680D43BC-46BE-4788-AD9A-8A3C824AE6DD} = {EA588CBB-B4DF-4C28-B517-0672159D7EC4}
+		{86BAB8A0-D8B0-4AD7-B0CC-0658DE7147C5} = {BE256485-9E7F-4E44-A004-508E3A49216C}
+		{5C91A2D9-08A1-4BA6-A7CE-FFC3E62F47AF} = {BE256485-9E7F-4E44-A004-508E3A49216C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9FCC4C8B-E863-41CE-962D-EF5C72287DFA}

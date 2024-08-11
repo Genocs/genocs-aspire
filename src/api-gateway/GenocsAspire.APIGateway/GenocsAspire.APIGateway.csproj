@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <IsPublishable>false</IsPublishable>
+        <IsPackable>false</IsPackable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Genocs.Auth" Version="6.0.*" />
+        <PackageReference Include="Genocs.Metrics" Version="6.0.*" />
+        <PackageReference Include="Genocs.Secrets.Vault" Version="6.0.*" />
+        <PackageReference Include="Genocs.Security" Version="6.0.*" />
+        <PackageReference Include="Genocs.Tracing" Version="6.0.*" />
+        <PackageReference Include="Genocs.WebApi" Version="6.0.*" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Aspire.RabbitMQ.Client" Version="8.1.0" />
+        <PackageReference Include="Yarp.ReverseProxy" Version="2.1.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\GenocsAspire.ServiceDefaults\GenocsAspire.ServiceDefaults.csproj" />
+    </ItemGroup>    
+
+    <ItemGroup>
+        <Content Include="certs\**" CopyToPublishDirectory="Always" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Folder Include="logs\" />
+    </ItemGroup>
+
+</Project>
