@@ -1,6 +1,6 @@
 using Genocs.Common.Types;
 
-namespace Genocs.Orders.WebApi.Domain;
+namespace GenocsAspire.OrdersApiService.Domain;
 
 public class Order : IIdentifiable<Guid>
 {

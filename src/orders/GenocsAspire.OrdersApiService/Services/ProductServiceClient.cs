@@ -1,11 +1,11 @@
 using Genocs.HTTP;
 using Genocs.HTTP.Configurations;
-using Genocs.Orders.WebApi.DTO;
 using Genocs.Secrets.Vault;
 using Genocs.Secrets.Vault.Configurations;
 using Genocs.WebApi.Security.Configurations;
+using GenocsAspire.OrdersApiService.DTO;
 
-namespace Genocs.Orders.WebApi.Services;
+namespace GenocsAspire.OrdersApiService.Services;
 
 /// <summary>
 /// The Product WebApi client implementation.

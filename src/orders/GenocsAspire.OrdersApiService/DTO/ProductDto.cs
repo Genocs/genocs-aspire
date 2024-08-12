@@ -1,4 +1,4 @@
-namespace Genocs.Orders.WebApi.DTO;
+namespace GenocsAspire.OrdersApiService.DTO;
 
 public class ProductDto
 {

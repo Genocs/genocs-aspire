@@ -1,6 +1,6 @@
 using Genocs.Core.CQRS.Events;
 
-namespace Genocs.Orders.WebApi.Events;
+namespace GenocsAspire.OrdersApiService.Events;
 
 public class OrderCreated : IEvent
 {

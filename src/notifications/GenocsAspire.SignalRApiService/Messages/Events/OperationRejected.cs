@@ -2,7 +2,7 @@ using Genocs.Common.Types;
 using Genocs.Core.CQRS.Events;
 using Newtonsoft.Json;
 
-namespace Genocs.SignalR.WebApi.Messages.Events;
+namespace GenocsAspire.SignalRApiService.Messages.Events;
 
 [Message("operations")]
 public class OperationRejected : IEvent

@@ -1,7 +1,7 @@
 using Genocs.Core.Builders;
-using Genocs.SignalR.WebApi.Configurations;
+using GenocsAspire.SignalRApiService.Configurations;
 
-namespace Genocs.SignalR.WebApi.Framework;
+namespace GenocsAspire.SignalRApiService.Framework;
 
 public static class Extensions
 {

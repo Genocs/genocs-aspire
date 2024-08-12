@@ -1,13 +1,13 @@
 using Genocs.Core.CQRS.Commands;
 using Genocs.MessageBrokers;
 using Genocs.MessageBrokers.Outbox;
-using Genocs.Orders.WebApi.Domain;
-using Genocs.Orders.WebApi.Events;
-using Genocs.Orders.WebApi.Services;
 using Genocs.Persistence.MongoDb.Repositories.Mentor;
+using GenocsAspire.OrdersApiService.Domain;
+using GenocsAspire.OrdersApiService.Events;
+using GenocsAspire.OrdersApiService.Services;
 using OpenTracing;
 
-namespace Genocs.Orders.WebApi.Commands.Handlers;
+namespace GenocsAspire.OrdersApiService.Commands.Handlers;
 
 public class CreateOrderHandler : ICommandHandler<CreateOrder>
 {

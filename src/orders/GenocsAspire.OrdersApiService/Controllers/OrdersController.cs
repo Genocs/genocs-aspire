@@ -1,11 +1,11 @@
 ﻿using Genocs.Core.CQRS.Commands;
 using Genocs.Core.CQRS.Queries;
-using Genocs.Orders.WebApi.Commands;
-using Genocs.Orders.WebApi.DTO;
-using Genocs.Orders.WebApi.Queries;
+using GenocsAspire.OrdersApiService.Commands;
+using GenocsAspire.OrdersApiService.DTO;
+using GenocsAspire.OrdersApiService.Queries;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Genocs.Orders.WebApi.Controllers;
+namespace GenocsAspire.OrdersApiService.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]

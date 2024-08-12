@@ -1,7 +1,7 @@
 using Genocs.Core.CQRS.Events;
 using Genocs.MessageBrokers;
 
-namespace Genocs.Orders.WebApi.Events.External;
+namespace GenocsAspire.OrdersApiService.Events.External;
 
 [Message("deliveries")]
 public class DeliveryStarted : IEvent

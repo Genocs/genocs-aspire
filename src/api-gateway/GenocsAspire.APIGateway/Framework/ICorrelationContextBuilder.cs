@@ -1,4 +1,4 @@
-namespace Genocs.APIGateway.Framework;
+namespace GenocsAspire.APIGateway.Framework;
 
 internal interface ICorrelationContextBuilder
 {

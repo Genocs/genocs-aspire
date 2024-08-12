@@ -1,0 +1,10 @@
+{
+  "signalR": {
+    "enabled": true,
+    "useBackplane": false,
+    "backplane": {
+      "provider": "redis",
+      "stringConnection": "localhost:6379"
+    }
+  }
+}

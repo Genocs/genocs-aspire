@@ -1,0 +1,16 @@
+global using Ardalis.Specification;
+global using FluentValidation;
+global using GenocsAspire.Multitenancy.Application.Common.Events;
+global using GenocsAspire.Multitenancy.Application.Common.Exceptions;
+global using GenocsAspire.Multitenancy.Application.Common.FileStorage;
+global using GenocsAspire.Multitenancy.Application.Common.Interfaces;
+global using GenocsAspire.Multitenancy.Application.Common.Models;
+global using GenocsAspire.Multitenancy.Application.Common.Persistence;
+global using GenocsAspire.Multitenancy.Application.Common.Specification;
+global using GenocsAspire.Multitenancy.Application.Common.Validation;
+global using GenocsAspire.Multitenancy.Domain.Catalog;
+global using GenocsAspire.Multitenancy.Domain.Common;
+global using GenocsAspire.Multitenancy.Domain.Common.Contracts;
+global using MediatR;
+global using Microsoft.Extensions.Localization;
+global using Microsoft.Extensions.Logging;

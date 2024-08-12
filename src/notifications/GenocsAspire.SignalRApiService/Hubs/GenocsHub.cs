@@ -1,8 +1,8 @@
 using Genocs.Auth;
-using Genocs.SignalR.WebApi.Framework;
+using GenocsAspire.SignalRApiService.Framework;
 using Microsoft.AspNetCore.SignalR;
 
-namespace Genocs.SignalR.WebApi.Hubs;
+namespace GenocsAspire.SignalRApiService.Hubs;
 
 public class GenocsHub : Hub
 {

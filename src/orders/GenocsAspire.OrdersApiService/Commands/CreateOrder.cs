@@ -1,6 +1,6 @@
 using Genocs.Core.CQRS.Commands;
 
-namespace Genocs.Orders.WebApi.Commands;
+namespace GenocsAspire.OrdersApiService.Commands;
 
 public class CreateOrder : ICommand
 {

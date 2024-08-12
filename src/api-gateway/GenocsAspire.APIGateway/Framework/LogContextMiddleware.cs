@@ -1,6 +1,6 @@
 using Serilog.Context;
 
-namespace Genocs.APIGateway.Framework;
+namespace GenocsAspire.APIGateway.Framework;
 
 internal class LogContextMiddleware : IMiddleware
 {

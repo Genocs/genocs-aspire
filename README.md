@@ -16,8 +16,8 @@
 [license-url]: https://github.com/Genocs/genocs-aspire/blob/main/LICENSE
 [build-shield]: https://github.com/Genocs/genocs-aspire/actions/workflows/build_and_test.yml/badge.svg?branch=main
 [build-url]: https://github.com/Genocs/genocs-aspire/actions/workflows/build_and_test.yml
-[downloads-shield]: https://img.shields.io/nuget/dt/Genocs.Microservice.Template.svg?color=2da44e&label=downloads&logo=nuget
-[downloads-url]: https://www.nuget.org/packages/Genocs.Microservice.Template
+[downloads-shield]: https://img.shields.io/nuget/dt/GenocsAspire.Multitenancy.svg?color=2da44e&label=downloads&logo=nuget
+[downloads-url]: https://www.nuget.org/packages/GenocsAspire.Multitenancy
 [contributors-shield]: https://img.shields.io/github/contributors/Genocs/genocs-aspire.svg?style=flat-square
 [contributors-url]: https://github.com/Genocs/genocs-aspire/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/Genocs/genocs-aspire?style=flat-square

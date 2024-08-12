@@ -1,7 +1,7 @@
 using System.Net;
 using Yarp.ReverseProxy.Forwarder;
 
-namespace Genocs.APIGateway.Framework;
+namespace GenocsAspire.APIGateway.Framework;
 
 internal class CustomForwarderHttpClientFactory : IForwarderHttpClientFactory
 {
@@ -11,7 +11,7 @@ internal class CustomForwarderHttpClientFactory : IForwarderHttpClientFactory
     {
         _correlationIdFactory = correlationIdFactory;
     }
-    
+
     public HttpMessageInvoker CreateClient(ForwarderHttpClientContext context)
     {
         if (context.OldClient != null && context.NewConfig == context.OldConfig)
@@ -53,8 +53,8 @@ internal class CustomForwarderHttpClientFactory : IForwarderHttpClientFactory
             handler.SslOptions.RemoteCertificateValidationCallback =
                 (sender, cert, chain, errors) => cert.Subject == "demo.io";
         }
-        
-        var httpMessageInvoker =  new CustomHttpMessageInvoker(_correlationIdFactory, handler, true);
+
+        var httpMessageInvoker = new CustomHttpMessageInvoker(_correlationIdFactory, handler, true);
 
         return httpMessageInvoker;
     }

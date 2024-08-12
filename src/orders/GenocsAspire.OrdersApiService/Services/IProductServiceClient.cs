@@ -1,6 +1,6 @@
-using Genocs.Orders.WebApi.DTO;
+using GenocsAspire.OrdersApiService.DTO;
 
-namespace Genocs.Orders.WebApi.Services;
+namespace GenocsAspire.OrdersApiService.Services;
 
 /// <summary>
 /// The Product WebApi client definition.

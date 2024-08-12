@@ -1,6 +1,6 @@
 using Genocs.Core.CQRS.Events;
 
-namespace Genocs.Orders.WebApi.Events.External.Handlers;
+namespace GenocsAspire.OrdersApiService.Events.External.Handlers;
 
 public class DeliveryStartedHandler : IEventHandler<DeliveryStarted>
 {

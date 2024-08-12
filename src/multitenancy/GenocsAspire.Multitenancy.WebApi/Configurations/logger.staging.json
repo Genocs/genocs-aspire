@@ -1,0 +1,7 @@
+{
+  "LoggerSettings": {
+    "AppName": "GenocsAspire.Multitenancy",
+    "WriteToFile": false,
+    "StructuredConsoleLogging": true
+  }
+}

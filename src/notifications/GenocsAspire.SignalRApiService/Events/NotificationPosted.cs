@@ -1,4 +1,4 @@
-﻿namespace Genocs.SignalR.WebApi.Events;
+﻿namespace GenocsAspire.SignalRApiService.Events;
 
 public class NotificationPosted
 {

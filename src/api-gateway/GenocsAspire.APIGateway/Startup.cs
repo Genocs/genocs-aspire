@@ -1,5 +1,3 @@
-using Genocs.APIGateway.Configurations;
-using Genocs.APIGateway.Framework;
 using Genocs.Auth;
 using Genocs.Common.Configurations;
 using Genocs.Core.Builders;
@@ -10,9 +8,11 @@ using Genocs.Tracing;
 using Genocs.Tracing.Jaeger;
 using Genocs.Tracing.Jaeger.RabbitMQ;
 using Genocs.WebApi;
+using GenocsAspire.APIGateway.Configurations;
+using GenocsAspire.APIGateway.Framework;
 using Yarp.ReverseProxy.Forwarder;
 
-namespace Genocs.APIGateway;
+namespace GenocsAspire.APIGateway;
 
 internal class Startup
 {

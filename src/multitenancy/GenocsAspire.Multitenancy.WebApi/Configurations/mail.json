@@ -1,0 +1,10 @@
+{
+  "MailSettings": {
+    "DisplayName": "Simeon Strosin",
+    "From": "simeon.strosin9@ethereal.email",
+    "Host": "smtp.ethereal.email",
+    "Password": "5ZzXYK1YMsDtKDxm6D",
+    "Port": 587,
+    "UserName": "simeon.strosin9@ethereal.email"
+  }
+}

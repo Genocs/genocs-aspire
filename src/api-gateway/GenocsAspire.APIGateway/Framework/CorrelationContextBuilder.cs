@@ -1,6 +1,6 @@
 using System.Security.Claims;
 
-namespace Genocs.APIGateway.Framework;
+namespace GenocsAspire.APIGateway.Framework;
 
 internal sealed class CorrelationContextBuilder : ICorrelationContextBuilder
 {

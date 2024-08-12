@@ -9,6 +9,8 @@ var identityService = builder.AddProject<Projects.GenocsAspire_IdentitiesApiServ
 var signalRService = builder.AddProject<Projects.GenocsAspire_SignalRApiService>("signalR");
 var productsService = builder.AddProject<Projects.GenocsAspire_ProductsApiService>("products");
 var orderssService = builder.AddProject<Projects.GenocsAspire_OrdersApiService>("orders");
+var multitenancyService = builder.AddProject<Projects.GenocsAspire_Multitenancy_WebApi>("multitenancy");
+
 
 builder.AddProject<Projects.GenocsAspire_Web>("webfrontend")
     .WithExternalHttpEndpoints()

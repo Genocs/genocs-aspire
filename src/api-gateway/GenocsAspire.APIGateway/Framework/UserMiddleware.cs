@@ -3,7 +3,7 @@ using System.Net;
 using System.Text;
 using System.Text.Json;
 
-namespace Genocs.APIGateway.Framework;
+namespace GenocsAspire.APIGateway.Framework;
 
 public class UserMiddleware : IMiddleware
 {

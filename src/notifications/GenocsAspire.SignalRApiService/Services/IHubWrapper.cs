@@ -1,4 +1,4 @@
-namespace Genocs.SignalR.WebApi.Services;
+namespace GenocsAspire.SignalRApiService.Services;
 
 public interface IHubWrapper
 {

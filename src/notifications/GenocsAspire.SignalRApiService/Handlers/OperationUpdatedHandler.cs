@@ -1,8 +1,8 @@
 using Genocs.Core.CQRS.Events;
-using Genocs.SignalR.WebApi.Messages.Events;
-using Genocs.SignalR.WebApi.Services;
+using GenocsAspire.SignalRApiService.Messages.Events;
+using GenocsAspire.SignalRApiService.Services;
 
-namespace Genocs.SignalR.WebApi.Handlers;
+namespace GenocsAspire.SignalRApiService.Handlers;
 
 public class OperationUpdatedHandler : IEventHandler<OperationPending>,
     IEventHandler<OperationCompleted>, IEventHandler<OperationRejected>

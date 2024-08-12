@@ -1,9 +1,10 @@
 using Genocs.Core.CQRS.Queries;
-using Genocs.Orders.WebApi.Domain;
-using Genocs.Orders.WebApi.DTO;
 using Genocs.Persistence.MongoDb.Repositories.Mentor;
+using GenocsAspire.OrdersApiService.Domain;
+using GenocsAspire.OrdersApiService.DTO;
+using GenocsAspire.OrdersApiService.Queries;
 
-namespace Genocs.Orders.WebApi.Queries.Handlers;
+namespace GenocsAspire.OrdersApiService.Queries.Handlers;
 
 public class GetOrderHandler : IQueryHandler<GetOrder, OrderDto>
 {

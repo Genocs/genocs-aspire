@@ -1,8 +1,8 @@
-using Genocs.SignalR.WebApi.Framework;
-using Genocs.SignalR.WebApi.Hubs;
+using GenocsAspire.SignalRApiService.Framework;
+using GenocsAspire.SignalRApiService.Hubs;
 using Microsoft.AspNetCore.SignalR;
 
-namespace Genocs.SignalR.WebApi.Services;
+namespace GenocsAspire.SignalRApiService.Services;
 
 public class HubWrapper : IHubWrapper
 {

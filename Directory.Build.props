@@ -44,4 +44,9 @@
         <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
     </PropertyGroup>
 
+    <ItemGroup>
+        <!-- Define the global DefaultIdType here. -->
+        <Using Include="System.Guid" Alias="DefaultIdType" />
+    </ItemGroup>
+
 </Project>

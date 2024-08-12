@@ -1,12 +1,12 @@
-using Genocs.APIGateway.Configurations;
 using Genocs.MessageBrokers.RabbitMQ;
 using Genocs.MessageBrokers.RabbitMQ.Conventions;
+using GenocsAspire.APIGateway.Configurations;
 using Microsoft.Extensions.Options;
 using Newtonsoft.Json;
 using OpenTracing;
 using System.Collections.Concurrent;
 
-namespace Genocs.APIGateway.Framework;
+namespace GenocsAspire.APIGateway.Framework;
 
 internal class MessagingMiddleware : IMiddleware
 {

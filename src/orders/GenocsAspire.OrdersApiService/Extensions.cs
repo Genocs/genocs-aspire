@@ -1,8 +1,8 @@
 using Genocs.Core.Builders;
-using Genocs.Orders.WebApi.Services;
 using Genocs.WebApi.Security;
+using GenocsAspire.OrdersApiService.Services;
 
-namespace Genocs.Orders.WebApi;
+namespace GenocsAspire.OrdersApiService;
 
 public static class Extensions
 {

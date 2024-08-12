@@ -1,8 +1,8 @@
 using Genocs.Core.CQRS.Queries;
-using Genocs.Orders.WebApi.DTO;
+using GenocsAspire.OrdersApiService.DTO;
 using System;
 
-namespace Genocs.Orders.WebApi.Queries;
+namespace GenocsAspire.OrdersApiService.Queries;
 
 public class GetOrder : IQuery<OrderDto>
 {
