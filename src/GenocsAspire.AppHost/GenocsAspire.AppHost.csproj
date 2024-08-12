@@ -17,8 +17,6 @@
     </ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\GenocsAspire.ApiService\GenocsAspire.ApiService.csproj" />
-        <ProjectReference Include="..\GenocsAspire.Web\GenocsAspire.Web.csproj" />
 
         <ProjectReference Include="..\api-gateway\GenocsAspire.APIGateway\GenocsAspire.APIGateway.csproj" />
         <ProjectReference Include="..\identities\GenocsAspire.IdentitiesApiService\GenocsAspire.IdentitiesApiService.csproj" />

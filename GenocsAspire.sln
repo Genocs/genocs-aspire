@@ -6,10 +6,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenocsAspire.AppHost", "src
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenocsAspire.ServiceDefaults", "src\GenocsAspire.ServiceDefaults\GenocsAspire.ServiceDefaults.csproj", "{69BB2027-B72E-4894-8058-9BAD5F41BAEE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenocsAspire.ApiService", "src\GenocsAspire.ApiService\GenocsAspire.ApiService.csproj", "{21F37070-788B-42E7-8F49-DA7AAD27945E}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenocsAspire.Web", "src\GenocsAspire.Web\GenocsAspire.Web.csproj", "{072A01F8-D5BB-49FD-9757-D87AAF3B72E0}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenocsAspire.Tests", "src\GenocsAspire.Tests\GenocsAspire.Tests.csproj", "{D265E11B-579E-4266-9C16-01A8D4BB4272}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Solution Items", "_Solution Items", "{E7B036FC-359E-463D-B9BA-574177A1DB12}"
@@ -91,14 +87,6 @@ Global
 		{69BB2027-B72E-4894-8058-9BAD5F41BAEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69BB2027-B72E-4894-8058-9BAD5F41BAEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69BB2027-B72E-4894-8058-9BAD5F41BAEE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{21F37070-788B-42E7-8F49-DA7AAD27945E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{21F37070-788B-42E7-8F49-DA7AAD27945E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{21F37070-788B-42E7-8F49-DA7AAD27945E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{21F37070-788B-42E7-8F49-DA7AAD27945E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{072A01F8-D5BB-49FD-9757-D87AAF3B72E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{072A01F8-D5BB-49FD-9757-D87AAF3B72E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{072A01F8-D5BB-49FD-9757-D87AAF3B72E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{072A01F8-D5BB-49FD-9757-D87AAF3B72E0}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D265E11B-579E-4266-9C16-01A8D4BB4272}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D265E11B-579E-4266-9C16-01A8D4BB4272}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D265E11B-579E-4266-9C16-01A8D4BB4272}.Release|Any CPU.ActiveCfg = Release|Any CPU
