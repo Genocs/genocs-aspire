@@ -26,6 +26,7 @@
         <ProjectReference Include="..\orders\GenocsAspire.OrdersApiService\GenocsAspire.OrdersApiService.csproj" />
         <ProjectReference Include="..\notifications\GenocsAspire.SignalRApiService\GenocsAspire.SignalRApiService.csproj" />
         <ProjectReference Include="..\multitenancy\GenocsAspire.Multitenancy.WebApi\GenocsAspire.Multitenancy.WebApi.csproj" />
+        <ProjectReference Include="..\frontend\Host\Host.csproj" />
 
     </ItemGroup>
 </Project>

@@ -8,15 +8,13 @@ var apiGatewayService = builder.AddProject<Projects.GenocsAspire_APIGateway>("ap
 var identityService = builder.AddProject<Projects.GenocsAspire_IdentitiesApiService>("identities");
 var signalRService = builder.AddProject<Projects.GenocsAspire_SignalRApiService>("signalR");
 var productsService = builder.AddProject<Projects.GenocsAspire_ProductsApiService>("products");
-var orderssService = builder.AddProject<Projects.GenocsAspire_OrdersApiService>("orders");
+var ordersService = builder.AddProject<Projects.GenocsAspire_OrdersApiService>("orders");
 var multitenancyService = builder.AddProject<Projects.GenocsAspire_Multitenancy_WebApi>("multitenancy");
 
-
-builder.AddProject<Projects.GenocsAspire_Web>("webfrontend")
+builder.AddProject<Projects.Host>("webfrontend")
     .WithExternalHttpEndpoints()
     .WithReference(cache)
     .WithReference(messaging)
-    .WithReference(signalRService)
-    .WithReference(apiService);
+    .WithReference(multitenancyService);
 
 builder.Build().Run();

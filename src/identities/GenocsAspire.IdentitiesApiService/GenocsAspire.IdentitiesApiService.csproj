@@ -10,6 +10,10 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <ProjectReference Include="..\..\GenocsAspire.ServiceDefaults\GenocsAspire.ServiceDefaults.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
         <ProjectReference Include="..\GenocsAspire.Identities.Application\GenocsAspire.Identities.Application.csproj" />
     </ItemGroup>
 
