@@ -2,12 +2,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35017.193
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenocsAspire.AppHost", "src\GenocsAspire.AppHost\GenocsAspire.AppHost.csproj", "{0AA36DBF-1B3A-45D2-A1D4-B399C284E026}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenocsAspire.ServiceDefaults", "src\GenocsAspire.ServiceDefaults\GenocsAspire.ServiceDefaults.csproj", "{69BB2027-B72E-4894-8058-9BAD5F41BAEE}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenocsAspire.Tests", "src\GenocsAspire.Tests\GenocsAspire.Tests.csproj", "{D265E11B-579E-4266-9C16-01A8D4BB4272}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Solution Items", "_Solution Items", "{E7B036FC-359E-463D-B9BA-574177A1DB12}"
 	ProjectSection(SolutionItems) = preProject
 		Directory.Build.props = Directory.Build.props
@@ -25,21 +19,32 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "identities", "identities", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "notifications", "notifications", "{EA588CBB-B4DF-4C28-B517-0672159D7EC4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenocsAspire.APIGateway", "src\api-gateway\GenocsAspire.APIGateway\GenocsAspire.APIGateway.csproj", "{41B506C8-23E5-426E-889E-6481E1431310}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenocsAspire.ProductsApiService", "src\products\GenocsAspire.ProductsApiService\GenocsAspire.ProductsApiService.csproj", "{0ADB7CED-6EB8-465F-A6EC-4553CCAE1FAF}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenocsAspire.OrdersApiService", "src\orders\GenocsAspire.OrdersApiService\GenocsAspire.OrdersApiService.csproj", "{B655A516-D3E4-4E5A-9317-E75C8163680E}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenocsAspire.SignalRApiService", "src\notifications\GenocsAspire.SignalRApiService\GenocsAspire.SignalRApiService.csproj", "{680D43BC-46BE-4788-AD9A-8A3C824AE6DD}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{78208E38-864F-4FC0-8012-4D96AEDD6178}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenocsAspire.Identities.Application", "src\identities\GenocsAspire.Identities.Application\GenocsAspire.Identities.Application.csproj", "{86BAB8A0-D8B0-4AD7-B0CC-0658DE7147C5}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenocsAspire.IdentitiesApiService", "src\identities\GenocsAspire.IdentitiesApiService\GenocsAspire.IdentitiesApiService.csproj", "{5C91A2D9-08A1-4BA6-A7CE-FFC3E62F47AF}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "frontend", "frontend", "{907493F0-57C3-4BBB-ADAC-B1EF6D0E6BDD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "multitenancy", "multitenancy", "{34A55E43-2347-4D95-892C-848D9E3FC40D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "migrators", "migrators", "{5610A3BF-F6A2-4DF4-B59A-3F96B9B7F339}"
+EndProject
+
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenocsAspire.AppHost", "src\GenocsAspire.AppHost\GenocsAspire.AppHost.csproj", "{0AA36DBF-1B3A-45D2-A1D4-B399C284E026}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenocsAspire.ServiceDefaults", "src\GenocsAspire.ServiceDefaults\GenocsAspire.ServiceDefaults.csproj", "{69BB2027-B72E-4894-8058-9BAD5F41BAEE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenocsAspire.Tests", "src\GenocsAspire.Tests\GenocsAspire.Tests.csproj", "{D265E11B-579E-4266-9C16-01A8D4BB4272}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APIGateway", "src\api-gateway\WebApi\APIGateway.csproj", "{41B506C8-23E5-426E-889E-6481E1431310}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Products.WebApi", "src\products\WebApi\Products.WebApi.csproj", "{0ADB7CED-6EB8-465F-A6EC-4553CCAE1FAF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Orders.WebApi", "src\orders\WebApi\Orders.WebApi.csproj", "{B655A516-D3E4-4E5A-9317-E75C8163680E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignalR.WebApi", "src\notifications\WebApi\SignalR.WebApi.csproj", "{680D43BC-46BE-4788-AD9A-8A3C824AE6DD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "src\identities\Application\Application.csproj", "{86BAB8A0-D8B0-4AD7-B0CC-0658DE7147C5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Identities.WebApi", "src\identities\WebApi\Identities.WebApi.csproj", "{5C91A2D9-08A1-4BA6-A7CE-FFC3E62F47AF}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared", "src\frontend\Shared\Shared.csproj", "{BAC8370F-A9CE-4D1A-A99F-15C6C9142A66}"
 EndProject
@@ -47,9 +52,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Client", "src\frontend\Clie
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Host", "src\frontend\Host\Host.csproj", "{BE7EDB2F-0C57-48E4-A0DE-BDE74638B357}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Client.Infrastructure", "src\frontend\Client.Infrastructure\Client.Infrastructure.csproj", "{0521BA77-D47A-4E09-A7BB-07ADAFB8E56E}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "multitenancy", "multitenancy", "{34A55E43-2347-4D95-892C-848D9E3FC40D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Client.Infrastructure", "src\frontend\Infrastructure\Infrastructure.csproj", "{0521BA77-D47A-4E09-A7BB-07ADAFB8E56E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "src\multitenancy\Core\Application\Application.csproj", "{AEEDEED1-8305-40DF-8938-47FBF020B692}"
 EndProject
@@ -59,9 +62,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared", "src\multitenancy\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "src\multitenancy\Infrastructure\Infrastructure.csproj", "{820945F7-355F-4DA1-9B9A-51E34FCCA6B9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenocsAspire.Multitenancy.WebApi", "src\multitenancy\GenocsAspire.Multitenancy.WebApi\GenocsAspire.Multitenancy.WebApi.csproj", "{F4B34DF0-A650-41BC-88D6-30D200B4EAE7}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "migrators", "migrators", "{5610A3BF-F6A2-4DF4-B59A-3F96B9B7F339}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Multitenancy.WebApi", "src\multitenancy\WebApi\Multitenancy.WebApi.csproj", "{F4B34DF0-A650-41BC-88D6-30D200B4EAE7}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Migrators.MSSQL", "src\multitenancy\Migrators\Migrators.MSSQL\Migrators.MSSQL.csproj", "{B6127146-BA49-4ECB-839F-FE3D961D4D0B}"
 EndProject

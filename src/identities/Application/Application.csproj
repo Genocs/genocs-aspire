@@ -2,6 +2,8 @@
 
     <PropertyGroup>
         <TargetFramework>net8.0</TargetFramework>
+        <RootNamespace>GenocsAspire.Identities.Application</RootNamespace>
+        <AssemblyName>GenocsAspire.Identities.Application</AssemblyName>
         <IsPublishable>false</IsPublishable>
         <IsPackable>false</IsPackable>
     </PropertyGroup>

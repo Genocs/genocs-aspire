@@ -1,5 +1,4 @@
 using GenocsAspire.Multitenancy.Application.Catalog.Brands;
-using GenocsAspire.Multitenancy.Application.Common.Interfaces;
 
 namespace GenocsAspire.Multitenancy.Application.Catalog.Products;
 

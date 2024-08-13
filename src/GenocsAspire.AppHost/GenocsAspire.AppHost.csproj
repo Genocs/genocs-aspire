@@ -18,12 +18,12 @@
 
 	<ItemGroup>
 
-        <ProjectReference Include="..\api-gateway\GenocsAspire.APIGateway\GenocsAspire.APIGateway.csproj" />
-        <ProjectReference Include="..\identities\GenocsAspire.IdentitiesApiService\GenocsAspire.IdentitiesApiService.csproj" />
-        <ProjectReference Include="..\products\GenocsAspire.ProductsApiService\GenocsAspire.ProductsApiService.csproj" />
-        <ProjectReference Include="..\orders\GenocsAspire.OrdersApiService\GenocsAspire.OrdersApiService.csproj" />
-        <ProjectReference Include="..\notifications\GenocsAspire.SignalRApiService\GenocsAspire.SignalRApiService.csproj" />
-        <ProjectReference Include="..\multitenancy\GenocsAspire.Multitenancy.WebApi\GenocsAspire.Multitenancy.WebApi.csproj" />
+        <ProjectReference Include="..\api-gateway\WebApi\APIGateway.csproj" />
+        <ProjectReference Include="..\identities\WebApi\Identities.WebApi.csproj" />
+        <ProjectReference Include="..\products\WebApi\Products.WebApi.csproj" />
+        <ProjectReference Include="..\orders\WebApi\Orders.WebApi.csproj" />
+        <ProjectReference Include="..\notifications\WebApi\SignalR.WebApi.csproj" />
+        <ProjectReference Include="..\multitenancy\WebApi\Multitenancy.WebApi.csproj" />
         <ProjectReference Include="..\frontend\Host\Host.csproj" />
 
     </ItemGroup>

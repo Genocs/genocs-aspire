@@ -2,6 +2,8 @@
 
     <PropertyGroup>
         <TargetFramework>net8.0</TargetFramework>
+        <RootNamespace>GenocsAspire.APIGateway</RootNamespace>
+        <AssemblyName>GenocsAspire.APIGateway</AssemblyName>
         <IsPublishable>false</IsPublishable>
         <IsPackable>false</IsPackable>
     </PropertyGroup>

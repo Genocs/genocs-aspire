@@ -2,6 +2,8 @@
 
     <PropertyGroup>
         <TargetFramework>net8.0</TargetFramework>
+        <RootNamespace>GenocsAspire.Identities.WebApi</RootNamespace>
+        <AssemblyName>GenocsAspire.Identities.WebApi</AssemblyName>
         <IsPublishable>false</IsPublishable>
         <IsPackable>false</IsPackable>
         <UserSecretsId>_genocs</UserSecretsId>
@@ -14,7 +16,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\GenocsAspire.Identities.Application\GenocsAspire.Identities.Application.csproj" />
+        <ProjectReference Include="..\Application\Application.csproj" />
     </ItemGroup>
 
     <ItemGroup>

@@ -2,9 +2,9 @@
 
     <PropertyGroup>
         <TargetFramework>net8.0</TargetFramework>
-        <IsPackable>false</IsPackable>
         <RootNamespace>GenocsAspire.Multitenancy.WebApi</RootNamespace>
         <AssemblyName>GenocsAspire.Multitenancy.WebApi</AssemblyName>
+        <IsPackable>false</IsPackable>
         <UserSecretsId>Genocs</UserSecretsId>
     </PropertyGroup>
 
@@ -35,8 +35,8 @@
             <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
     </ItemGroup>
-    
+
     <ItemGroup>
-      <Folder Include="Files\" />
+        <Folder Include="Files\" />
     </ItemGroup>
 </Project>

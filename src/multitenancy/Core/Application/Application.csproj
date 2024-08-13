@@ -2,9 +2,9 @@
 
     <PropertyGroup>
         <TargetFramework>net8.0</TargetFramework>
-        <IsPackable>false</IsPackable>
         <RootNamespace>GenocsAspire.Multitenancy.Application</RootNamespace>
         <AssemblyName>GenocsAspire.Multitenancy.Application</AssemblyName>
+        <IsPackable>false</IsPackable>
     </PropertyGroup>
 
     <ItemGroup>
