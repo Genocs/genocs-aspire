@@ -3,7 +3,7 @@ using MediatR;
 using MediatR.Courier;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Genocs.BlazorWasm.Template.Client.Infrastructure.Notifications;
+namespace Genocs.BlazorWasm.Template.Infrastructure.Notifications;
 
 internal static class Startup
 {

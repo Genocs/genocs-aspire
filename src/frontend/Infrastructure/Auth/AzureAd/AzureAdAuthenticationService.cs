@@ -1,8 +1,8 @@
-﻿using Genocs.BlazorWasm.Template.Client.Infrastructure.ApiClient;
+﻿using Genocs.BlazorWasm.Template.Infrastructure.ApiClient;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.WebAssembly.Authentication;
 
-namespace Genocs.BlazorWasm.Template.Client.Infrastructure.Auth.AzureAd;
+namespace Genocs.BlazorWasm.Template.Infrastructure.Auth.AzureAd;
 
 internal class AzureAdAuthenticationService : IAuthenticationService
 {

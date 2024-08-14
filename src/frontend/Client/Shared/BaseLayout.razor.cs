@@ -1,5 +1,5 @@
-﻿using Genocs.BlazorWasm.Template.Client.Infrastructure.Preferences;
-using Genocs.BlazorWasm.Template.Client.Infrastructure.Themes;
+﻿using Genocs.BlazorWasm.Template.Infrastructure.Preferences;
+using Genocs.BlazorWasm.Template.Infrastructure.Themes;
 using MudBlazor;
 
 namespace Genocs.BlazorWasm.Template.Client.Shared;
@@ -40,8 +40,8 @@ public partial class BaseLayout
     private void SetCurrentTheme(ClientPreference themePreference)
     {
         _currentTheme = themePreference.IsDarkMode ? new DarkTheme() : new LightTheme();
-        _currentTheme.Palette.Primary = themePreference.PrimaryColor;
-        _currentTheme.Palette.Secondary = themePreference.SecondaryColor;
+        //_currentTheme.PaletteLight.Primary = themePreference.PrimaryColor;
+        //_currentTheme.PaletteLight.Secondary = themePreference.SecondaryColor;
         _currentTheme.LayoutProperties.DefaultBorderRadius = $"{themePreference.BorderRadius}px";
         _currentTheme.LayoutProperties.DefaultBorderRadius = $"{themePreference.BorderRadius}px";
         _rightToLeft = themePreference.IsRTL;

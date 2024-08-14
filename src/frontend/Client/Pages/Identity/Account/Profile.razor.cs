@@ -1,8 +1,8 @@
 ﻿using Genocs.BlazorWasm.Template.Client.Components.Common;
 using Genocs.BlazorWasm.Template.Client.Components.Dialogs;
-using Genocs.BlazorWasm.Template.Client.Infrastructure.ApiClient;
-using Genocs.BlazorWasm.Template.Client.Infrastructure.Auth;
-using Genocs.BlazorWasm.Template.Client.Infrastructure.Common;
+using Genocs.BlazorWasm.Template.Infrastructure.ApiClient;
+using Genocs.BlazorWasm.Template.Infrastructure.Auth;
+using Genocs.BlazorWasm.Template.Infrastructure.Common;
 using Genocs.BlazorWasm.Template.Client.Shared;
 using Genocs.BlazorWasm.Template.Shared.Authorization;
 using Microsoft.AspNetCore.Components;
@@ -89,7 +89,7 @@ public partial class Profile
         {
             { nameof(DeleteConfirmation.ContentText), deleteContent }
         };
-        var options = new DialogOptions { CloseButton = true, MaxWidth = MaxWidth.Small, FullWidth = true, DisableBackdropClick = true };
+        var options = new DialogOptions { CloseButton = true, MaxWidth = MaxWidth.Small, FullWidth = true, BackdropClick = true };
         var dialog = DialogService.Show<DeleteConfirmation>(L["Delete"], parameters, options);
         var result = await dialog.Result;
         if (!result.Canceled)

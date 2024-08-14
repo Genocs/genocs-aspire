@@ -1,7 +1,7 @@
 using Genocs.BlazorWasm.Template.Client;
-using Genocs.BlazorWasm.Template.Client.Infrastructure;
-using Genocs.BlazorWasm.Template.Client.Infrastructure.Common;
-using Genocs.BlazorWasm.Template.Client.Infrastructure.Preferences;
+using Genocs.BlazorWasm.Template.Infrastructure;
+using Genocs.BlazorWasm.Template.Infrastructure.Common;
+using Genocs.BlazorWasm.Template.Infrastructure.Preferences;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using System.Globalization;

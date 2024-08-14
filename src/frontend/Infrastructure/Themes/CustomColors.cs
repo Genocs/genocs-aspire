@@ -1,6 +1,6 @@
 ﻿using MudBlazor;
 
-namespace Genocs.BlazorWasm.Template.Client.Infrastructure.Themes;
+namespace Genocs.BlazorWasm.Template.Infrastructure.Themes;
 
 public static class CustomColors
 {
@@ -8,7 +8,7 @@ public static class CustomColors
     {
         Light.Primary,
         Colors.Blue.Default,
-        Colors.BlueGrey.Default,
+        Colors.BlueGray.Default,
         Colors.Purple.Default,
         Colors.Orange.Default,
         Colors.Red.Default,

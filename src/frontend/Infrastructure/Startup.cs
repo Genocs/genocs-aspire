@@ -1,7 +1,7 @@
-﻿using Genocs.BlazorWasm.Template.Client.Infrastructure.ApiClient;
-using Genocs.BlazorWasm.Template.Client.Infrastructure.Auth;
-using Genocs.BlazorWasm.Template.Client.Infrastructure.Notifications;
-using Genocs.BlazorWasm.Template.Client.Infrastructure.Preferences;
+﻿using Genocs.BlazorWasm.Template.Infrastructure.ApiClient;
+using Genocs.BlazorWasm.Template.Infrastructure.Auth;
+using Genocs.BlazorWasm.Template.Infrastructure.Notifications;
+using Genocs.BlazorWasm.Template.Infrastructure.Preferences;
 using Genocs.BlazorWasm.Template.Shared.Authorization;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.Extensions.DependencyInjection;
@@ -9,7 +9,7 @@ using MudBlazor;
 using MudBlazor.Services;
 using System.Globalization;
 
-namespace Genocs.BlazorWasm.Template.Client.Infrastructure;
+namespace Genocs.BlazorWasm.Template.Infrastructure;
 
 public static class Startup
 {

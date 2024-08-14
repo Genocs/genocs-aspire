@@ -1,12 +1,12 @@
 ﻿using MudBlazor;
 
-namespace Genocs.BlazorWasm.Template.Client.Infrastructure.Themes;
+namespace Genocs.BlazorWasm.Template.Infrastructure.Themes;
 
 public class LightTheme : MudTheme
 {
     public LightTheme()
     {
-        Palette = new PaletteLight()
+        PaletteLight = new PaletteLight()
         {
             Primary = CustomColors.Light.Primary,
             Secondary = CustomColors.Light.Secondary,
@@ -19,6 +19,7 @@ public class LightTheme : MudTheme
             TableLines = "#e0e0e029",
             OverlayDark = "hsl(0deg 0% 0% / 75%)"
         };
+
         LayoutProperties = new LayoutProperties()
         {
             DefaultBorderRadius = "5px"

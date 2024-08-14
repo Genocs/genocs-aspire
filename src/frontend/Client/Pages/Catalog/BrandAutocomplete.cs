@@ -1,4 +1,4 @@
-﻿using Genocs.BlazorWasm.Template.Client.Infrastructure.ApiClient;
+﻿using Genocs.BlazorWasm.Template.Infrastructure.ApiClient;
 using Genocs.BlazorWasm.Template.Client.Shared;
 using Microsoft.AspNetCore.Components;
 using Microsoft.Extensions.Localization;
@@ -47,7 +47,7 @@ public class BrandAutocomplete : MudAutocomplete<DefaultIdType>
         }
     }
 
-    private async Task<IEnumerable<DefaultIdType>> SearchBrands(string value)
+    private async Task<IEnumerable<DefaultIdType>> SearchBrands(string value, CancellationToken cancellationToken)
     {
         var filter = new SearchBrandsRequest
         {

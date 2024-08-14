@@ -2,7 +2,7 @@ using Genocs.BlazorWasm.Template.Shared.Notifications;
 using MediatR;
 using Microsoft.Extensions.Logging;
 
-namespace Genocs.BlazorWasm.Template.Client.Infrastructure.Notifications;
+namespace Genocs.BlazorWasm.Template.Infrastructure.Notifications;
 
 public class NotificationPublisher : INotificationPublisher
 {
