@@ -39,13 +39,13 @@
 
 
 <p align="center">
-    <img src="./assets/genocs-library-logo.png" alt="icon">
+    <img src="./assets/repository-description.png" alt="icon">
 </p>
 
 
-# Genocs .NET library
+# Genocs .NET Aspire solution
 
-This repo contains a set of libraries to build LOB (Line Of Business) applications. The library is open source and built to be PRODUCTION READY. The library is built on top of .NET8, it is designed and maintained by Genocs. 
+This repo contains a set of services you can use to build an enterprice solution based on .NET. The solution is open source and built to be PRODUCTION READY. The solution is built on top of .NET8, it is designed and maintained by Genocs. 
 
 Packages are available on [NuGet Genocs](https://www.nuget.org/profiles/gioema_nocco).
 
@@ -377,52 +377,6 @@ Use [**api-workbench**](./api-workbench.rest) inside Visual Studio code with [RE
       }
     }
   }
-```
----
-
-## Demo Application
-Inside the library there is a simple demo application you can use to test the library. 
-
-Following are the commands to build and run the demo application.
-
-``` bash
-# Build the solution 
-dotnet build
-
-# Pack the projects
-dotnet pack
-
-# Run project with console
-dotnet run --project ./src/Genocs.Core.Demo.WebApi
-dotnet run --project ./src/Genocs.Core.Demo.Worker
-```
-
-``` bash
-# To pack the project with nuspec file
-cd src/Genocs.Core
-dotnet pack -p:NuspecFile=./Genocs.Core.nuspec --no-restore -o .
-
-# To push on nuget
-dotnet nuget push
-dotnet nuget push *.nupkg -k $NUGET_API_KEY -s $NUGET_SOURCE
-```
-
-### How to build Docker Demo images
-
-``` bash
-# Build webapi
-docker build -t genocs/demo-webapi:2.0.0 -t genocs/demo-webapi:latest -f ./demo-webapi.dockerfile .
-
-# Push on Dockerhub
-docker push genocs/demo-webapi:2.0.0
-docker push genocs/demo-webapi:latest
-
-# Build worker
-docker build -t genocs/demo-worker:2.0.0 -t genocs/demo-worker:latest -f ./demo-worker.dockerfile .
-
-# Push on Dockerhub
-docker push genocs/demo-worker:2.0.0
-docker push genocs/demo-worker:latest
 ```
 ---
 
