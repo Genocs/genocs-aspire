@@ -40,8 +40,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.AddServiceDefaults();
 
 builder.Host
-        .UseLogging()
-        .UseVault();
+        .UseLogging();
 
 var services = builder.Services;
 
@@ -50,8 +49,6 @@ services.AddGenocs()
         .AddServices()
         .AddHttpClient()
         .AddCorrelationContextLogging()
-        .AddConsul()
-        .AddFabio()
         .AddOpenTelemetry()
         .AddJaeger()
         .AddMetrics()
@@ -63,8 +60,6 @@ services.AddGenocs()
         .AddInMemoryCommandDispatcher()
         .AddInMemoryEventDispatcher()
         .AddInMemoryQueryDispatcher()
-        .AddPrometheus()
-        .AddRedis()
         .AddRabbitMq(plugins: p => p.AddJaegerRabbitMqPlugin())
         .AddMessageOutbox(o => o.AddMongo())
         .AddWebApi()
@@ -77,7 +72,6 @@ var app = builder.Build();
 app.UseGenocs()
     .UserCorrelationContextLogging()
     .UseErrorHandler()
-    .UsePrometheus()
     .UseRouting()
     .UseCertificateAuthentication()
     .UseEndpoints(r => r.MapControllers())
@@ -90,6 +84,8 @@ app.UseGenocs()
     .UseSwaggerDocs()
     .UseRabbitMq()
     .SubscribeEvent<DeliveryStarted>();
+
+app.MapDefaultEndpoints();
 
 app.Run();
 

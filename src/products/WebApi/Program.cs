@@ -2,18 +2,13 @@
 using Genocs.Core.CQRS.Commands;
 using Genocs.Core.CQRS.Events;
 using Genocs.Core.CQRS.Queries;
-using Genocs.Discovery.Consul;
 using Genocs.HTTP;
-using Genocs.LoadBalancing.Fabio;
 using Genocs.Logging;
 using Genocs.MessageBrokers.Outbox;
 using Genocs.MessageBrokers.Outbox.MongoDB;
 using Genocs.MessageBrokers.RabbitMQ;
 using Genocs.Metrics.AppMetrics;
-using Genocs.Metrics.Prometheus;
 using Genocs.Persistence.MongoDb.Extensions;
-using Genocs.Persistence.Redis;
-using Genocs.Secrets.Vault;
 using Genocs.Tracing;
 using Genocs.Tracing.Jaeger;
 using Genocs.Tracing.Jaeger.RabbitMQ;
@@ -38,8 +33,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.AddServiceDefaults();
 
 builder.Host
-        .UseLogging()
-        .UseVault();
+        .UseLogging();
 
 var services = builder.Services;
 
@@ -48,8 +42,6 @@ services.AddGenocs()
         .AddServices()
         .AddHttpClient()
         .AddCorrelationContextLogging()
-        .AddConsul()
-        .AddFabio()
         .AddOpenTelemetry()
         .AddJaeger()
         .AddMetrics()
@@ -61,8 +53,6 @@ services.AddGenocs()
         .AddInMemoryCommandDispatcher()
         .AddInMemoryEventDispatcher()
         .AddInMemoryQueryDispatcher()
-        .AddPrometheus()
-        .AddRedis()
         .AddRabbitMq(plugins: p => p.AddJaegerRabbitMqPlugin())
         .AddMessageOutbox(o => o.AddMongo())
         .AddWebApi()
@@ -75,7 +65,6 @@ var app = builder.Build();
 app.UseGenocs()
     .UserCorrelationContextLogging()
     .UseErrorHandler()
-    .UsePrometheus()
     .UseRouting()
     .UseCertificateAuthentication()
     .UseEndpoints(r => r.MapControllers())

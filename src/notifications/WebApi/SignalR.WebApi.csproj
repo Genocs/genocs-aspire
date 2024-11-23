@@ -6,9 +6,7 @@
         <AssemblyName>GenocsAspire.SignalR.WebApi</AssemblyName>
         <IsPublishable>false</IsPublishable>
         <IsPackable>false</IsPackable>
-        <UserSecretsId>Genocs</UserSecretsId>
-        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
-        <DockerfileContext>..\..</DockerfileContext>
+        <UserSecretsId>_Genocs</UserSecretsId>
     </PropertyGroup>
 
     <ItemGroup>

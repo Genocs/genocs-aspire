@@ -15,8 +15,7 @@ StaticLogger.EnsureInitialized();
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Host
-        .UseLogging()
-        .UseVault();
+        .UseLogging();
 
 var services = builder.Services;
 

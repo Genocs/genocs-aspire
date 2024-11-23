@@ -1,6 +1,5 @@
 using Genocs.HTTP;
 using Genocs.HTTP.Configurations;
-using Genocs.Secrets.Vault;
 using Genocs.Secrets.Vault.Configurations;
 using Genocs.WebApi.Security.Configurations;
 using GenocsAspire.OrdersApiService.DTO;
@@ -19,16 +18,10 @@ public class ProductServiceClient : IProductServiceClient
     /// The standard constructor.
     /// </summary>
     /// <param name="client">The http client.</param>
-    /// <param name="certificatesService">The certification service.</param>
     /// <param name="httpClientOptions"></param>
-    /// <param name="vaultOptions"></param>
-    /// <param name="securityOptions"></param>
     public ProductServiceClient(
                                 IHttpClient client,
-                                ICertificatesService certificatesService,
-                                HttpClientOptions httpClientOptions,
-                                VaultOptions vaultOptions,
-                                SecurityOptions securityOptions)
+                                HttpClientOptions httpClientOptions)
     {
         _client = client ?? throw new ArgumentNullException(nameof(client));
 
@@ -36,16 +29,6 @@ public class ProductServiceClient : IProductServiceClient
         if (httpClientOptions is null)
         {
             throw new ArgumentNullException(nameof(httpClientOptions));
-        }
-
-        if (vaultOptions is null)
-        {
-            throw new ArgumentNullException(nameof(vaultOptions));
-        }
-
-        if (securityOptions is null)
-        {
-            throw new ArgumentNullException(nameof(securityOptions));
         }
 
         string? url = httpClientOptions?.Services?["products"];
@@ -56,22 +39,6 @@ public class ProductServiceClient : IProductServiceClient
         }
 
         _url = url;
-
-        if (!vaultOptions.Enabled || vaultOptions.Pki?.Enabled != true ||
-            securityOptions.Certificate?.Enabled != true)
-        {
-            return;
-        }
-
-        var certificate = certificatesService?.Get(vaultOptions.Pki.RoleName);
-        if (certificate is null)
-        {
-            return;
-        }
-
-        string header = securityOptions.Certificate.GetHeaderName();
-        string certificateData = certificate.GetRawCertDataString();
-        _client.SetHeaders(h => h.Add(header, certificateData));
     }
 
     /// <summary>

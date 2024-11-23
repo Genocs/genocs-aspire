@@ -6,9 +6,7 @@
         <AssemblyName>GenocsAspire.Identities.WebApi</AssemblyName>
         <IsPublishable>false</IsPublishable>
         <IsPackable>false</IsPackable>
-        <UserSecretsId>_genocs</UserSecretsId>
-        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
-        <DockerfileContext>..\..</DockerfileContext>
+        <UserSecretsId>Genocs</UserSecretsId>
     </PropertyGroup>
 
     <ItemGroup>
