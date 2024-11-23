@@ -45,9 +45,23 @@
 
 # Genocs .NET Aspire solution
 
-This repo contains a set of services you can use to build an enterprice solution based on .NET. The solution is open source and built to be PRODUCTION READY. The solution is built on top of .NET8, it is designed and maintained by Genocs. 
+This repo contains a set of services you can use to build an enterprise solution based on .NET. The solution is open source and built to be PRODUCTION READY. The solution is built on top of .NET8, it is designed and maintained by Genocs. 
 
-Packages are available on [NuGet Genocs](https://www.nuget.org/profiles/gioema_nocco).
+
+## Introduction
+
+The solution is composed by a set of services:
+
+- ApiGateway       https://localhost:5000  | http://localhost:5001
+- Identity         https://localhost:5010  | http://localhost:5011
+- Products         https://localhost:5020  | http://localhost:5021
+- Orders           https://localhost:5030  | http://localhost:5031
+- Notifications    https://localhost:5040  | http://localhost:5041
+
+- Multitenancy     https://localhost:5110  | http://localhost:5111 
+- Blazor Host      https://localhost:5500  | http://localhost:5501
+- Blazor Client    https://localhost:5510  | http://localhost:5511
+
 
 ## The idea
 
