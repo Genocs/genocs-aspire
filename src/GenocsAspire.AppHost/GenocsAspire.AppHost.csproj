@@ -2,7 +2,7 @@
 
 	<PropertyGroup>
 		<OutputType>Exe</OutputType>
-		<TargetFramework>net8.0</TargetFramework>
+		<TargetFramework>net9.0</TargetFramework>
 		<IsAspireHost>true</IsAspireHost>
 		<UserSecretsId>Genocs</UserSecretsId>
 	</PropertyGroup>
@@ -16,11 +16,11 @@
 
 	<ItemGroup>
 
-        <ProjectReference Include="..\api-gateway\WebApi\APIGateway.csproj" />
-        <ProjectReference Include="..\identities\WebApi\Identities.WebApi.csproj" />
-        <ProjectReference Include="..\products\WebApi\Products.WebApi.csproj" />
-        <ProjectReference Include="..\orders\WebApi\Orders.WebApi.csproj" />
-        <ProjectReference Include="..\notifications\WebApi\SignalR.WebApi.csproj" />
+        <ProjectReference Include="..\api-gateway\APIGateway.WebApi\APIGateway.WebApi.csproj" />
+        <ProjectReference Include="..\identity\Identities.WebApi\Identities.WebApi.csproj" />
+        <ProjectReference Include="..\products\Products.WebApi\Products.WebApi.csproj" />
+        <ProjectReference Include="..\orders\Orders.WebApi\Orders.WebApi.csproj" />
+        <ProjectReference Include="..\signalr\SignalR.WebApi\SignalR.WebApi.csproj" />
         <ProjectReference Include="..\multitenancy\WebApi\Multitenancy.WebApi.csproj" />
         <ProjectReference Include="..\frontend\Host\Host.csproj" />
 

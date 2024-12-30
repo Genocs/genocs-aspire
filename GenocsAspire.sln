@@ -27,24 +27,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "multitenancy", "multitenanc
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "migrators", "migrators", "{5610A3BF-F6A2-4DF4-B59A-3F96B9B7F339}"
 EndProject
-
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenocsAspire.AppHost", "src\GenocsAspire.AppHost\GenocsAspire.AppHost.csproj", "{0AA36DBF-1B3A-45D2-A1D4-B399C284E026}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenocsAspire.ServiceDefaults", "src\GenocsAspire.ServiceDefaults\GenocsAspire.ServiceDefaults.csproj", "{69BB2027-B72E-4894-8058-9BAD5F41BAEE}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenocsAspire.Tests", "src\GenocsAspire.Tests\GenocsAspire.Tests.csproj", "{D265E11B-579E-4266-9C16-01A8D4BB4272}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APIGateway", "src\api-gateway\WebApi\APIGateway.csproj", "{41B506C8-23E5-426E-889E-6481E1431310}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APIGateway", "src\api-gateway\APIGateway.WebApi\APIGateway.WebApi.csproj", "{41B506C8-23E5-426E-889E-6481E1431310}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Products.WebApi", "src\products\WebApi\Products.WebApi.csproj", "{0ADB7CED-6EB8-465F-A6EC-4553CCAE1FAF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Products.WebApi", "src\products\Products.WebApi\Products.WebApi.csproj", "{0ADB7CED-6EB8-465F-A6EC-4553CCAE1FAF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Orders.WebApi", "src\orders\WebApi\Orders.WebApi.csproj", "{B655A516-D3E4-4E5A-9317-E75C8163680E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Orders.WebApi", "src\orders\Orders.WebApi\Orders.WebApi.csproj", "{B655A516-D3E4-4E5A-9317-E75C8163680E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignalR.WebApi", "src\notifications\WebApi\SignalR.WebApi.csproj", "{680D43BC-46BE-4788-AD9A-8A3C824AE6DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignalR.WebApi", "src\signalr\SignalR.WebApi\SignalR.WebApi.csproj", "{680D43BC-46BE-4788-AD9A-8A3C824AE6DD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "src\identities\Application\Application.csproj", "{86BAB8A0-D8B0-4AD7-B0CC-0658DE7147C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "src\identity\Identities.Application\Identities.Application.csproj", "{86BAB8A0-D8B0-4AD7-B0CC-0658DE7147C5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Identities.WebApi", "src\identities\WebApi\Identities.WebApi.csproj", "{5C91A2D9-08A1-4BA6-A7CE-FFC3E62F47AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Identities.WebApi", "src\identity\Identities.WebApi\Identities.WebApi.csproj", "{5C91A2D9-08A1-4BA6-A7CE-FFC3E62F47AF}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared", "src\frontend\Shared\Shared.csproj", "{BAC8370F-A9CE-4D1A-A99F-15C6C9142A66}"
 EndProject

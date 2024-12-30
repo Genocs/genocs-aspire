@@ -1,6 +1,6 @@
 var builder = DistributedApplication.CreateBuilder(args);
 
-var apiGatewayService = builder.AddProject<Projects.APIGateway>("apiGateway");
+var apiGatewayService = builder.AddProject<Projects.APIGateway_WebApi>("apiGateway");
 var identityService = builder.AddProject<Projects.Identities_WebApi>("identities");
 var productsService = builder.AddProject<Projects.Products_WebApi>("products");
 var ordersService = builder.AddProject<Projects.Orders_WebApi>("orders");
