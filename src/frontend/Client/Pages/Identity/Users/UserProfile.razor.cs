@@ -1,13 +1,13 @@
-﻿using Genocs.BlazorWasm.Template.Infrastructure.ApiClient;
-using Genocs.BlazorWasm.Template.Infrastructure.Auth;
-using Genocs.BlazorWasm.Template.Infrastructure.Common;
-using Genocs.BlazorWasm.Template.Client.Shared;
-using Genocs.BlazorWasm.Template.Shared.Authorization;
+﻿using Genocs.BlazorAspire.Infrastructure.ApiClient;
+using Genocs.BlazorAspire.Infrastructure.Auth;
+using Genocs.BlazorAspire.Infrastructure.Common;
+using Genocs.BlazorAspire.Client.Shared;
+using Genocs.BlazorAspire.Shared.Authorization;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Authorization;
 
-namespace Genocs.BlazorWasm.Template.Client.Pages.Identity.Users;
+namespace Genocs.BlazorAspire.Client.Pages.Identity.Users;
 
 public partial class UserProfile
 {

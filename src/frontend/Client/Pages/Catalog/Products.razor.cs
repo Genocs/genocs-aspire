@@ -1,13 +1,13 @@
-﻿using Genocs.BlazorWasm.Template.Client.Components.EntityTable;
-using Genocs.BlazorWasm.Template.Infrastructure.ApiClient;
-using Genocs.BlazorWasm.Template.Infrastructure.Common;
-using Genocs.BlazorWasm.Template.Shared.Authorization;
+﻿using Genocs.BlazorAspire.Client.Components.EntityTable;
+using Genocs.BlazorAspire.Infrastructure.ApiClient;
+using Genocs.BlazorAspire.Infrastructure.Common;
+using Genocs.BlazorAspire.Shared.Authorization;
 using Mapster;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Forms;
 using MudBlazor;
 
-namespace Genocs.BlazorWasm.Template.Client.Pages.Catalog;
+namespace Genocs.BlazorAspire.Client.Pages.Catalog;
 
 public partial class Products
 {

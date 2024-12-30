@@ -1,4 +1,4 @@
-namespace GenocsAspire.Multitenancy.Infrastructure.Cors;
+namespace Genocs.MultitenancyAspire.Infrastructure.Cors;
 
 public class CorsSettings
 {

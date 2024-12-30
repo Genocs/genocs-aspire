@@ -1,8 +1,8 @@
 ﻿using Finbuckle.MultiTenant.Abstractions;
-using GenocsAspire.Multitenancy.Application.Common.Caching;
-using GenocsAspire.Multitenancy.Infrastructure.Multitenancy;
+using Genocs.MultitenancyAspire.Application.Common.Caching;
+using Genocs.MultitenancyAspire.Infrastructure.Multitenancy;
 
-namespace GenocsAspire.Multitenancy.Infrastructure.Caching;
+namespace Genocs.MultitenancyAspire.Infrastructure.Caching;
 
 public class CacheKeyService : ICacheKeyService
 {

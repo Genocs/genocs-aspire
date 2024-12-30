@@ -1,7 +1,7 @@
 using NJsonSchema;
 using NJsonSchema.Generation;
 
-namespace GenocsAspire.Multitenancy.Infrastructure.OpenApi;
+namespace Genocs.MultitenancyAspire.Infrastructure.OpenApi;
 public class SwaggerGuidSchemaProcessor : ISchemaProcessor
 {
     public void Process(SchemaProcessorContext context)

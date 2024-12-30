@@ -1,8 +1,9 @@
-﻿using GenocsAspire.Multitenancy.Application.Common.Exceptions;
-using GenocsAspire.Multitenancy.Application.Identity.Users;
-using GenocsAspire.Multitenancy.Infrastructure.Multitenancy;
-using GenocsAspire.Multitenancy.Shared.Authorization;
-using GenocsAspire.Multitenancy.Shared.Multitenancy;
+﻿using Finbuckle.MultiTenant;
+using Genocs.MultitenancyAspire.Application.Common.Exceptions;
+using Genocs.MultitenancyAspire.Application.Identity.Users;
+using Genocs.MultitenancyAspire.Infrastructure.Multitenancy;
+using Genocs.MultitenancyAspire.Shared.Authorization;
+using Genocs.MultitenancyAspire.Shared.Multitenancy;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -11,7 +12,7 @@ using Microsoft.Identity.Web;
 using Serilog;
 using System.Security.Claims;
 
-namespace GenocsAspire.Multitenancy.Infrastructure.Auth.AzureAd;
+namespace Genocs.MultitenancyAspire.Infrastructure.Auth.AzureAd;
 
 internal class AzureAdJwtBearerEvents : JwtBearerEvents
 {

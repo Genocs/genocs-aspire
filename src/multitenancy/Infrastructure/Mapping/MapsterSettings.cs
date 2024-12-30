@@ -1,4 +1,4 @@
-﻿namespace GenocsAspire.Multitenancy.Infrastructure.Mapping;
+﻿namespace Genocs.MultitenancyAspire.Infrastructure.Mapping;
 
 public class MapsterSettings
 {

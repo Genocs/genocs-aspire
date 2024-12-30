@@ -1,13 +1,13 @@
 using Finbuckle.MultiTenant.Abstractions;
-using GenocsAspire.Multitenancy.Application.Common.Events;
-using GenocsAspire.Multitenancy.Application.Common.Interfaces;
-using GenocsAspire.Multitenancy.Domain.Catalog;
-using GenocsAspire.Multitenancy.Infrastructure.Multitenancy;
-using GenocsAspire.Multitenancy.Infrastructure.Persistence.Configuration;
+using Genocs.MultitenancyAspire.Application.Common.Events;
+using Genocs.MultitenancyAspire.Application.Common.Interfaces;
+using Genocs.MultitenancyAspire.Domain.Catalog;
+using Genocs.MultitenancyAspire.Infrastructure.Multitenancy;
+using Genocs.MultitenancyAspire.Infrastructure.Persistence.Configuration;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 
-namespace GenocsAspire.Multitenancy.Infrastructure.Persistence.Context;
+namespace Genocs.MultitenancyAspire.Infrastructure.Persistence.Context;
 
 public class ApplicationDbContext : BaseDbContext
 {

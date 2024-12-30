@@ -1,6 +1,4 @@
-using GenocsAspire.Multitenancy.Application.Common.Interfaces;
-
-namespace GenocsAspire.Multitenancy.Application.Common.FileStorage;
+namespace Genocs.MultitenancyAspire.Application.Common.FileStorage;
 
 public interface IFileStorageService : ITransientService
 {

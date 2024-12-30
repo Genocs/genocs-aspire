@@ -1,6 +1,4 @@
-﻿using GenocsAspire.Multitenancy.Domain.Common.Contracts;
-
-namespace GenocsAspire.Multitenancy.Application.Common.Persistence;
+﻿namespace Genocs.MultitenancyAspire.Application.Common.Persistence;
 
 // The Repository for the Application Db
 // I(Read)RepositoryBase<T> is from Ardalis.Specification

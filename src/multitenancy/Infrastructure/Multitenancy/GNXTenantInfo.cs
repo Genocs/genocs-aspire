@@ -1,7 +1,7 @@
 ﻿using Finbuckle.MultiTenant;
-using GenocsAspire.Multitenancy.Shared.Multitenancy;
+using Genocs.MultitenancyAspire.Shared.Multitenancy;
 
-namespace GenocsAspire.Multitenancy.Infrastructure.Multitenancy;
+namespace Genocs.MultitenancyAspire.Infrastructure.Multitenancy;
 
 public class GNXTenantInfo : TenantInfo
 {

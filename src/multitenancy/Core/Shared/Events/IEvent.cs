@@ -1,4 +1,4 @@
-﻿namespace GenocsAspire.Multitenancy.Shared.Events;
+﻿namespace Genocs.MultitenancyAspire.Shared.Events;
 
 /// <summary>
 /// The event interface.

@@ -2,8 +2,8 @@
 
     <PropertyGroup>
         <TargetFramework>net9.0</TargetFramework>
-        <RootNamespace>GenocsAspire.Multitenancy.Domain</RootNamespace>
-        <AssemblyName>GenocsAspire.Multitenancy.Domain</AssemblyName>
+        <RootNamespace>Genocs.MultitenancyAspire.Domain</RootNamespace>
+        <AssemblyName>Genocs.MultitenancyAspire.Domain</AssemblyName>
         <IsPackable>false</IsPackable>
     </PropertyGroup>
 

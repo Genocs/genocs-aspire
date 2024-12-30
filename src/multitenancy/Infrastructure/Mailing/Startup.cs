@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace GenocsAspire.Multitenancy.Infrastructure.Mailing;
+namespace Genocs.MultitenancyAspire.Infrastructure.Mailing;
 
 internal static class Startup
 {

@@ -1,6 +1,6 @@
-using GenocsAspire.Multitenancy.Shared.Events;
+using Genocs.MultitenancyAspire.Shared.Events;
 
-namespace GenocsAspire.Multitenancy.Domain.Common.Contracts;
+namespace Genocs.MultitenancyAspire.Domain.Common.Contracts;
 
 /// <summary>
 /// Base class for all domain events.

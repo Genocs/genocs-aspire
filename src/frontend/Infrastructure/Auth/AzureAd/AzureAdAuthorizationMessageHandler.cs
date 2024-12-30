@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.WebAssembly.Authentication;
 
-namespace Genocs.BlazorWasm.Template.Infrastructure.Auth.AzureAd;
+namespace Genocs.BlazorAspire.Infrastructure.Auth.AzureAd;
 
 public class AzureAdAuthorizationMessageHandler : AuthorizationMessageHandler
 {

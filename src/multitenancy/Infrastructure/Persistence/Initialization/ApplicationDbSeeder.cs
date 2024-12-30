@@ -1,14 +1,14 @@
 ﻿using Finbuckle.MultiTenant.Abstractions;
-using GenocsAspire.Multitenancy.Infrastructure.Identity;
-using GenocsAspire.Multitenancy.Infrastructure.Multitenancy;
-using GenocsAspire.Multitenancy.Infrastructure.Persistence.Context;
-using GenocsAspire.Multitenancy.Shared.Authorization;
-using GenocsAspire.Multitenancy.Shared.Multitenancy;
+using Genocs.MultitenancyAspire.Infrastructure.Identity;
+using Genocs.MultitenancyAspire.Infrastructure.Multitenancy;
+using Genocs.MultitenancyAspire.Infrastructure.Persistence.Context;
+using Genocs.MultitenancyAspire.Shared.Authorization;
+using Genocs.MultitenancyAspire.Shared.Multitenancy;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 
-namespace GenocsAspire.Multitenancy.Infrastructure.Persistence.Initialization;
+namespace Genocs.MultitenancyAspire.Infrastructure.Persistence.Initialization;
 
 internal class ApplicationDbSeeder
 {

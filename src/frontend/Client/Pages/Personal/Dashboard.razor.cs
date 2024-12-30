@@ -1,12 +1,12 @@
-﻿using Genocs.BlazorWasm.Template.Infrastructure.ApiClient;
-using Genocs.BlazorWasm.Template.Infrastructure.Notifications;
-using Genocs.BlazorWasm.Template.Client.Shared;
-using Genocs.BlazorWasm.Template.Shared.Notifications;
+﻿using Genocs.BlazorAspire.Infrastructure.ApiClient;
+using Genocs.BlazorAspire.Infrastructure.Notifications;
+using Genocs.BlazorAspire.Client.Shared;
+using Genocs.BlazorAspire.Shared.Notifications;
 using MediatR.Courier;
 using Microsoft.AspNetCore.Components;
 using System.Globalization;
 
-namespace Genocs.BlazorWasm.Template.Client.Pages.Personal;
+namespace Genocs.BlazorAspire.Client.Pages.Personal;
 
 public partial class Dashboard
 {

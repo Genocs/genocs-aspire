@@ -1,4 +1,4 @@
-namespace GenocsAspire.Multitenancy.Application.Identity.Users.Password;
+namespace Genocs.MultitenancyAspire.Application.Identity.Users.Password;
 
 public class ResetPasswordRequest
 {

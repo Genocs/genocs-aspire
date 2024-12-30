@@ -1,14 +1,14 @@
 using Finbuckle.MultiTenant;
-using GenocsAspire.Multitenancy.Application.Multitenancy;
-using GenocsAspire.Multitenancy.Infrastructure.Persistence;
-using GenocsAspire.Multitenancy.Shared.Authorization;
-using GenocsAspire.Multitenancy.Shared.Multitenancy;
+using Genocs.MultitenancyAspire.Application.Multitenancy;
+using Genocs.MultitenancyAspire.Infrastructure.Persistence;
+using Genocs.MultitenancyAspire.Shared.Authorization;
+using Genocs.MultitenancyAspire.Shared.Multitenancy;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 
-namespace GenocsAspire.Multitenancy.Infrastructure.Multitenancy;
+namespace Genocs.MultitenancyAspire.Infrastructure.Multitenancy;
 
 internal static class Startup
 {

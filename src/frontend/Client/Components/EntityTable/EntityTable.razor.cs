@@ -1,7 +1,7 @@
-using Genocs.BlazorWasm.Template.Client.Components.Dialogs;
-using Genocs.BlazorWasm.Template.Infrastructure.ApiClient;
-using Genocs.BlazorWasm.Template.Infrastructure.Auth;
-using Genocs.BlazorWasm.Template.Client.Shared;
+using Genocs.BlazorAspire.Client.Components.Dialogs;
+using Genocs.BlazorAspire.Infrastructure.ApiClient;
+using Genocs.BlazorAspire.Infrastructure.Auth;
+using Genocs.BlazorAspire.Client.Shared;
 using Mapster;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Components;
@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.JSInterop;
 using MudBlazor;
 
-namespace Genocs.BlazorWasm.Template.Client.Components.EntityTable;
+namespace Genocs.BlazorAspire.Client.Components.EntityTable;
 
 public partial class EntityTable<TEntity, TId, TRequest>
     where TRequest : new()

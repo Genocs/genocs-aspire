@@ -1,4 +1,4 @@
-namespace GenocsAspire.Multitenancy.Infrastructure.Persistence.Initialization;
+namespace Genocs.MultitenancyAspire.Infrastructure.Persistence.Initialization;
 
 public interface ICustomSeeder
 {

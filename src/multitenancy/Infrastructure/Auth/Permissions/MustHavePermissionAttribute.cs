@@ -1,7 +1,7 @@
-using GenocsAspire.Multitenancy.Shared.Authorization;
+using Genocs.MultitenancyAspire.Shared.Authorization;
 using Microsoft.AspNetCore.Authorization;
 
-namespace GenocsAspire.Multitenancy.Infrastructure.Auth.Permissions;
+namespace Genocs.MultitenancyAspire.Infrastructure.Auth.Permissions;
 
 public class MustHavePermissionAttribute : AuthorizeAttribute
 {

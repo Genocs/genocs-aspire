@@ -1,7 +1,7 @@
-using GenocsAspire.Multitenancy.Application.Common.Exceptions;
-using GenocsAspire.Multitenancy.Infrastructure.Common;
-using GenocsAspire.Multitenancy.Infrastructure.Identity;
-using GenocsAspire.Multitenancy.Shared.Multitenancy;
+using Genocs.MultitenancyAspire.Application.Common.Exceptions;
+using Genocs.MultitenancyAspire.Infrastructure.Common;
+using Genocs.MultitenancyAspire.Infrastructure.Identity;
+using Genocs.MultitenancyAspire.Shared.Multitenancy;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.EntityFrameworkCore;
 using System.Text;

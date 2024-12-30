@@ -2,7 +2,7 @@
 using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
 
-namespace GenocsAspire.Multitenancy.Infrastructure.Validations;
+namespace Genocs.MultitenancyAspire.Infrastructure.Validations;
 public static class Extensions
 {
     public static IServiceCollection Behaviors(this IServiceCollection services, Assembly assemblyContainingValidators)

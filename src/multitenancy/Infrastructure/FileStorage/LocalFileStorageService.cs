@@ -1,10 +1,10 @@
-using GenocsAspire.Multitenancy.Application.Common.FileStorage;
-using GenocsAspire.Multitenancy.Domain.Common;
-using GenocsAspire.Multitenancy.Infrastructure.Common.Extensions;
 using System.Runtime.InteropServices;
 using System.Text.RegularExpressions;
+using Genocs.MultitenancyAspire.Application.Common.FileStorage;
+using Genocs.MultitenancyAspire.Domain.Common;
+using Genocs.MultitenancyAspire.Infrastructure.Common.Extensions;
 
-namespace GenocsAspire.Multitenancy.Infrastructure.FileStorage;
+namespace Genocs.MultitenancyAspire.Infrastructure.FileStorage;
 
 public class LocalFileStorageService : IFileStorageService
 {

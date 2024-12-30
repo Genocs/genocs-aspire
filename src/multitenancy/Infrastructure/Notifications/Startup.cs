@@ -4,7 +4,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Serilog;
 
-namespace GenocsAspire.Multitenancy.Infrastructure.Notifications;
+namespace Genocs.MultitenancyAspire.Infrastructure.Notifications;
 
 internal static class Startup
 {

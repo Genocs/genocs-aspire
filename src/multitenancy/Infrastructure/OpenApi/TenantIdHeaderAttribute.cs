@@ -1,6 +1,6 @@
-﻿using GenocsAspire.Multitenancy.Shared.Multitenancy;
+﻿using Genocs.MultitenancyAspire.Shared.Multitenancy;
 
-namespace GenocsAspire.Multitenancy.Infrastructure.OpenApi;
+namespace Genocs.MultitenancyAspire.Infrastructure.OpenApi;
 
 public class TenantIdHeaderAttribute : SwaggerHeaderAttribute
 {

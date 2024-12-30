@@ -1,7 +1,4 @@
-using GenocsAspire.Multitenancy.Application.Common.Persistence;
-using GenocsAspire.Multitenancy.Application.Common.Validation;
-
-namespace GenocsAspire.Multitenancy.Application.Catalog.Products;
+namespace Genocs.MultitenancyAspire.Application.Catalog.Products;
 
 public class CreateProductRequestValidator : CustomValidator<CreateProductRequest>
 {

@@ -1,6 +1,6 @@
 {
-  "name": "Genocs.BlazorWasm.Template",
-  "short_name": "Genocs.BlazorWasm.Template",
+  "name": "Genocs.BlazorAspire",
+  "short_name": "Genocs.BlazorAspire",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#ffffff",

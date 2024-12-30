@@ -1,5 +1,5 @@
-using GenocsAspire.Multitenancy.Application.Common.Persistence;
-using GenocsAspire.Multitenancy.Infrastructure.Common;
+using Genocs.MultitenancyAspire.Application.Common.Persistence;
+using Genocs.MultitenancyAspire.Infrastructure.Common;
 using Microsoft.Data.SqlClient;
 using Microsoft.Data.Sqlite;
 using Microsoft.Extensions.Options;
@@ -7,7 +7,7 @@ using MySqlConnector;
 using Npgsql;
 using Oracle.ManagedDataAccess.Client;
 
-namespace GenocsAspire.Multitenancy.Infrastructure.Persistence.ConnectionString;
+namespace Genocs.MultitenancyAspire.Infrastructure.Persistence.ConnectionString;
 
 public class ConnectionStringSecurer : IConnectionStringSecurer
 {

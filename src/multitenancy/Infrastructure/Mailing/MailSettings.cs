@@ -1,4 +1,4 @@
-namespace GenocsAspire.Multitenancy.Infrastructure.Mailing;
+namespace Genocs.MultitenancyAspire.Infrastructure.Mailing;
 
 public class MailSettings
 {

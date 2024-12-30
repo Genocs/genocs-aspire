@@ -1,4 +1,4 @@
-﻿namespace GenocsAspire.Multitenancy.Domain.Common.Contracts;
+﻿namespace Genocs.MultitenancyAspire.Domain.Common.Contracts;
 
 /// <summary>
 /// Generic interface for entities.

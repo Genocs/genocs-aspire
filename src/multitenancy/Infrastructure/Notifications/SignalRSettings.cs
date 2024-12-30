@@ -1,4 +1,4 @@
-﻿namespace GenocsAspire.Multitenancy.Infrastructure.Notifications;
+﻿namespace Genocs.MultitenancyAspire.Infrastructure.Notifications;
 
 public class SignalRSettings
 {

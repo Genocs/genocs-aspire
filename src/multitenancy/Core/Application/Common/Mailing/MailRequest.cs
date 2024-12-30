@@ -1,4 +1,4 @@
-namespace GenocsAspire.Multitenancy.Application.Common.Mailing;
+namespace Genocs.MultitenancyAspire.Application.Common.Mailing;
 
 public class MailRequest
 {

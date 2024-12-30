@@ -1,7 +1,7 @@
-﻿using Genocs.BlazorWasm.Template.Shared.Authorization;
+﻿using Genocs.BlazorAspire.Shared.Authorization;
 using Microsoft.AspNetCore.Authorization;
 
-namespace Genocs.BlazorWasm.Template.Infrastructure.Auth;
+namespace Genocs.BlazorAspire.Infrastructure.Auth;
 
 public class MustHavePermissionAttribute : AuthorizeAttribute
 {

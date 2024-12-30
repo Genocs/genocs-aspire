@@ -1,10 +1,10 @@
-﻿using Genocs.BlazorWasm.Template.Client.Components.Common;
-using Genocs.BlazorWasm.Template.Infrastructure.ApiClient;
-using Genocs.BlazorWasm.Template.Client.Shared;
+﻿using Genocs.BlazorAspire.Client.Components.Common;
+using Genocs.BlazorAspire.Infrastructure.ApiClient;
+using Genocs.BlazorAspire.Client.Shared;
 using Microsoft.AspNetCore.Components;
 using MudBlazor;
 
-namespace Genocs.BlazorWasm.Template.Client.Pages.Identity.Account;
+namespace Genocs.BlazorAspire.Client.Pages.Identity.Account;
 
 public partial class Security
 {

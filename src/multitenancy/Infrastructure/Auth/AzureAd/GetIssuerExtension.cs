@@ -1,6 +1,6 @@
 using System.Security.Claims;
 
-namespace GenocsAspire.Multitenancy.Infrastructure.Auth.AzureAd;
+namespace Genocs.MultitenancyAspire.Infrastructure.Auth.AzureAd;
 
 public static class GetIssuerExtension
 {

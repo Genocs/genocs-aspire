@@ -1,4 +1,4 @@
-﻿namespace Genocs.BlazorWasm.Template.Infrastructure.Common;
+﻿namespace Genocs.BlazorAspire.Infrastructure.Common;
 
 public record LanguageCode(string Code, string DisplayName, bool IsRTL = false);
 

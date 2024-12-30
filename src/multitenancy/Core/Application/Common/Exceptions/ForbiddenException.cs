@@ -1,6 +1,6 @@
 using System.Net;
 
-namespace GenocsAspire.Multitenancy.Application.Common.Exceptions;
+namespace Genocs.MultitenancyAspire.Application.Common.Exceptions;
 
 public class ForbiddenException : CustomException
 {

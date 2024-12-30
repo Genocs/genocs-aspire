@@ -1,12 +1,12 @@
 ﻿using Finbuckle.MultiTenant.Abstractions;
-using GenocsAspire.Multitenancy.Application.Common.Exceptions;
-using GenocsAspire.Multitenancy.Application.Common.Interfaces;
-using GenocsAspire.Multitenancy.Infrastructure.Multitenancy;
+using Genocs.MultitenancyAspire.Application.Common.Exceptions;
+using Genocs.MultitenancyAspire.Application.Common.Interfaces;
+using Genocs.MultitenancyAspire.Infrastructure.Multitenancy;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.SignalR;
 using Microsoft.Extensions.Logging;
 
-namespace GenocsAspire.Multitenancy.Infrastructure.Notifications;
+namespace Genocs.MultitenancyAspire.Infrastructure.Notifications;
 
 [Authorize]
 public class NotificationHub : Hub, ITransientService

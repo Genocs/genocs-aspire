@@ -1,1 +1,1 @@
-global using GenocsAspire.Multitenancy.Shared.Notifications;
+global using Genocs.MultitenancyAspire.Shared.Notifications;

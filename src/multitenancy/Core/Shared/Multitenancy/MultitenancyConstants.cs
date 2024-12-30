@@ -1,4 +1,4 @@
-namespace GenocsAspire.Multitenancy.Shared.Multitenancy;
+namespace Genocs.MultitenancyAspire.Shared.Multitenancy;
 
 public class MultitenancyConstants
 {

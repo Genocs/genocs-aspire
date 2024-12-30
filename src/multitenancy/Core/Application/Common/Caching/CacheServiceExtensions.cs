@@ -1,4 +1,4 @@
-namespace GenocsAspire.Multitenancy.Application.Common.Caching;
+namespace Genocs.MultitenancyAspire.Application.Common.Caching;
 
 public static class CacheServiceExtensions
 {

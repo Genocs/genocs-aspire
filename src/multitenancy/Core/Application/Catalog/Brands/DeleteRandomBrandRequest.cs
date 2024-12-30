@@ -1,6 +1,4 @@
-﻿using GenocsAspire.Multitenancy.Application.Common.Interfaces;
-
-namespace GenocsAspire.Multitenancy.Application.Catalog.Brands;
+﻿namespace Genocs.MultitenancyAspire.Application.Catalog.Brands;
 
 public class DeleteRandomBrandRequest : IRequest<string>
 {

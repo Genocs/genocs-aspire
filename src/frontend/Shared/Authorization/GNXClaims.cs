@@ -1,4 +1,4 @@
-﻿namespace Genocs.BlazorWasm.Template.Shared.Authorization;
+﻿namespace Genocs.BlazorAspire.Shared.Authorization;
 
 public static class GNXClaims
 {

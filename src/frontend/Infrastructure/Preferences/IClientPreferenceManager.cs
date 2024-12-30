@@ -1,6 +1,6 @@
 ﻿using MudBlazor;
 
-namespace Genocs.BlazorWasm.Template.Infrastructure.Preferences;
+namespace Genocs.BlazorAspire.Infrastructure.Preferences;
 
 public interface IClientPreferenceManager : IPreferenceManager
 {

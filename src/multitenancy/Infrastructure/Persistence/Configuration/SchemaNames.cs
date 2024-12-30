@@ -1,4 +1,4 @@
-﻿namespace GenocsAspire.Multitenancy.Infrastructure.Persistence.Configuration;
+﻿namespace Genocs.MultitenancyAspire.Infrastructure.Persistence.Configuration;
 
 internal static class SchemaNames
 {

@@ -1,4 +1,4 @@
-﻿namespace Genocs.BlazorWasm.Template.Client.Components.EntityTable;
+﻿namespace Genocs.BlazorAspire.Client.Components.EntityTable;
 
 public class PaginationResponse<T>
 {

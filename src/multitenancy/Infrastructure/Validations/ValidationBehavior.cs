@@ -1,7 +1,7 @@
 ﻿using FluentValidation;
 using MediatR;
 
-namespace GenocsAspire.Multitenancy.Infrastructure.Validations;
+namespace Genocs.MultitenancyAspire.Infrastructure.Validations;
 
 public class ValidationBehavior<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse>
     where TRequest : IRequest<TResponse>

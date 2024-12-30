@@ -1,8 +1,8 @@
-using GenocsAspire.Multitenancy.Infrastructure.Persistence.Context;
+using Genocs.MultitenancyAspire.Infrastructure.Persistence.Context;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace GenocsAspire.Multitenancy.Infrastructure.Identity;
+namespace Genocs.MultitenancyAspire.Infrastructure.Identity;
 
 internal static class Startup
 {

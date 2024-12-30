@@ -1,10 +1,10 @@
 ﻿using Finbuckle.MultiTenant.Abstractions;
-using GenocsAspire.Multitenancy.Application.Common.Interfaces;
-using GenocsAspire.Multitenancy.Infrastructure.Multitenancy;
+using Genocs.MultitenancyAspire.Application.Common.Interfaces;
+using Genocs.MultitenancyAspire.Infrastructure.Multitenancy;
 using Microsoft.AspNetCore.SignalR;
-using static GenocsAspire.Multitenancy.Shared.Notifications.NotificationConstants;
+using static Genocs.MultitenancyAspire.Shared.Notifications.NotificationConstants;
 
-namespace GenocsAspire.Multitenancy.Infrastructure.Notifications;
+namespace Genocs.MultitenancyAspire.Infrastructure.Notifications;
 
 public class NotificationSender : INotificationSender
 {

@@ -1,6 +1,6 @@
 using System.Security.Claims;
 
-namespace GenocsAspire.Multitenancy.Shared.Authorization;
+namespace Genocs.MultitenancyAspire.Shared.Authorization;
 
 public static class ClaimsPrincipalExtensions
 {

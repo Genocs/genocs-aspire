@@ -1,4 +1,4 @@
-namespace GenocsAspire.Multitenancy.Infrastructure.Logging;
+namespace Genocs.MultitenancyAspire.Infrastructure.Logging;
 
 public class LoggerSettings
 {
@@ -7,7 +7,7 @@ public class LoggerSettings
     /// </summary>
     public const string Position = "loggerSettings";
 
-    public string AppName { get; set; } = "GenocsAspire.Multitenancy.WebAPI";
+    public string AppName { get; set; } = "Genocs.MultitenancyAspire.WebAPI";
 
     public bool ElasticEnabled { get; set; }
     public string ElasticSearchUrl { get; set; } = string.Empty;

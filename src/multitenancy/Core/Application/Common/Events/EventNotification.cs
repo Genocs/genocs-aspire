@@ -1,6 +1,6 @@
-using GenocsAspire.Multitenancy.Shared.Events;
+using Genocs.MultitenancyAspire.Shared.Events;
 
-namespace GenocsAspire.Multitenancy.Application.Common.Events;
+namespace Genocs.MultitenancyAspire.Application.Common.Events;
 
 public class EventNotification<TEvent> : INotification
     where TEvent : IEvent

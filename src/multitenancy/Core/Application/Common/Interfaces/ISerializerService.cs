@@ -1,4 +1,4 @@
-namespace GenocsAspire.Multitenancy.Application.Common.Interfaces;
+namespace Genocs.MultitenancyAspire.Application.Common.Interfaces;
 
 /// <summary>
 /// It is used to serialize and deserialize objects.

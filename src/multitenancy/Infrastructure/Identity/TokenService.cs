@@ -1,11 +1,11 @@
 using Finbuckle.MultiTenant.Abstractions;
-using GenocsAspire.Multitenancy.Application.Common.Exceptions;
-using GenocsAspire.Multitenancy.Application.Identity.Tokens;
-using GenocsAspire.Multitenancy.Infrastructure.Auth;
-using GenocsAspire.Multitenancy.Infrastructure.Auth.Jwt;
-using GenocsAspire.Multitenancy.Infrastructure.Multitenancy;
-using GenocsAspire.Multitenancy.Shared.Authorization;
-using GenocsAspire.Multitenancy.Shared.Multitenancy;
+using Genocs.MultitenancyAspire.Application.Common.Exceptions;
+using Genocs.MultitenancyAspire.Application.Identity.Tokens;
+using Genocs.MultitenancyAspire.Infrastructure.Auth;
+using Genocs.MultitenancyAspire.Infrastructure.Auth.Jwt;
+using Genocs.MultitenancyAspire.Infrastructure.Multitenancy;
+using Genocs.MultitenancyAspire.Shared.Authorization;
+using Genocs.MultitenancyAspire.Shared.Multitenancy;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Localization;
 using Microsoft.Extensions.Options;
@@ -15,7 +15,7 @@ using System.Security.Claims;
 using System.Security.Cryptography;
 using System.Text;
 
-namespace GenocsAspire.Multitenancy.Infrastructure.Identity;
+namespace Genocs.MultitenancyAspire.Infrastructure.Identity;
 
 internal class TokenService : ITokenService
 {
@@ -116,7 +116,7 @@ internal class TokenService : ITokenService
             new(ClaimTypes.Name, user.FirstName ?? string.Empty),
             new(ClaimTypes.Surname, user.LastName ?? string.Empty),
             new(GNXClaims.IpAddress, ipAddress),
-            new(GNXClaims.Tenant, _currentTenant!.Id!),
+            new(GNXClaims.Tenant, _currentTenant!.Id),
             new(GNXClaims.ImageUrl, user.ImageUrl ?? string.Empty),
             new(ClaimTypes.MobilePhone, user.PhoneNumber ?? string.Empty)
         };

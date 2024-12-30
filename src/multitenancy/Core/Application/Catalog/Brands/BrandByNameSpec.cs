@@ -1,4 +1,4 @@
-﻿namespace GenocsAspire.Multitenancy.Application.Catalog.Brands;
+﻿namespace Genocs.MultitenancyAspire.Application.Catalog.Brands;
 
 public class BrandByNameSpec : Specification<Brand>, ISingleResultSpecification<Brand>
 {

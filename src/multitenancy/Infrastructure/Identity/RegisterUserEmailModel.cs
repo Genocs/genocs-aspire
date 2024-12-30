@@ -1,4 +1,4 @@
-﻿namespace GenocsAspire.Multitenancy.Infrastructure.Identity;
+﻿namespace Genocs.MultitenancyAspire.Infrastructure.Identity;
 
 public class RegisterUserEmailModel
 {

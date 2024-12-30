@@ -1,7 +1,7 @@
-﻿using GenocsAspire.Multitenancy.Application.Common.Exceptions;
-using GenocsAspire.Multitenancy.Application.Common.Mailing;
-using GenocsAspire.Multitenancy.Application.Identity.Users.Password;
-using GenocsAspire.Multitenancy.Infrastructure.Identity;
+﻿using Genocs.MultitenancyAspire.Application.Common.Exceptions;
+using Genocs.MultitenancyAspire.Application.Common.Mailing;
+using Genocs.MultitenancyAspire.Application.Identity.Users.Password;
+using Genocs.MultitenancyAspire.Infrastructure.Identity;
 using Microsoft.AspNetCore.WebUtilities;
 
 namespace Genocs.Microservice.Infrastructure.Identity;

@@ -1,7 +1,7 @@
 using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
 
-namespace GenocsAspire.Multitenancy.Application;
+namespace Genocs.MultitenancyAspire.Application;
 
 public static class Startup
 {

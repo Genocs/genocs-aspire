@@ -1,6 +1,6 @@
-using GenocsAspire.Multitenancy.Domain.Common.Contracts;
+using Genocs.MultitenancyAspire.Domain.Common.Contracts;
 
-namespace GenocsAspire.Multitenancy.Infrastructure.Auditing;
+namespace Genocs.MultitenancyAspire.Infrastructure.Auditing;
 
 /// <summary>
 /// Entity to store the trail of changes.

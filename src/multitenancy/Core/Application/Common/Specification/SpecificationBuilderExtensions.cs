@@ -1,9 +1,8 @@
-﻿using GenocsAspire.Multitenancy.Application.Common.Models;
-using System.Linq.Expressions;
+﻿using System.Linq.Expressions;
 using System.Reflection;
 using System.Text.Json;
 
-namespace GenocsAspire.Multitenancy.Application.Common.Specification;
+namespace Genocs.MultitenancyAspire.Application.Common.Specification;
 
 // See https://github.com/ardalis/Specification/issues/53
 public static class SpecificationBuilderExtensions

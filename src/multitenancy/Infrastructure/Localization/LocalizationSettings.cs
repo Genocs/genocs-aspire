@@ -1,4 +1,4 @@
-﻿namespace GenocsAspire.Multitenancy.Infrastructure.Localization;
+﻿namespace Genocs.MultitenancyAspire.Infrastructure.Localization;
 
 public class LocalizationSettings
 {

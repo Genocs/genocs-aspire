@@ -1,6 +1,4 @@
-using GenocsAspire.Multitenancy.Application.Common.Interfaces;
-
-namespace GenocsAspire.Multitenancy.Application.Common.Mailing;
+namespace Genocs.MultitenancyAspire.Application.Common.Mailing;
 
 public interface IMailService : ITransientService
 {

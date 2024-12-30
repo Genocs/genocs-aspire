@@ -1,4 +1,4 @@
-namespace GenocsAspire.Multitenancy.Infrastructure.SecurityHeaders;
+namespace Genocs.MultitenancyAspire.Infrastructure.SecurityHeaders;
 
 public class SecurityHeaderSettings
 {

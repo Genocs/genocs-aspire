@@ -1,6 +1,4 @@
-using GenocsAspire.Multitenancy.Application.Common.FileStorage;
-
-namespace GenocsAspire.Multitenancy.Application.Identity.Users;
+namespace Genocs.MultitenancyAspire.Application.Identity.Users;
 
 public class UpdateUserRequest
 {

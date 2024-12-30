@@ -1,10 +1,10 @@
 using Finbuckle.MultiTenant.Abstractions;
-using GenocsAspire.Multitenancy.Infrastructure.Multitenancy;
-using GenocsAspire.Multitenancy.Infrastructure.Persistence.Context;
+using Genocs.MultitenancyAspire.Infrastructure.Multitenancy;
+using Genocs.MultitenancyAspire.Infrastructure.Persistence.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 
-namespace GenocsAspire.Multitenancy.Infrastructure.Persistence.Initialization;
+namespace Genocs.MultitenancyAspire.Infrastructure.Persistence.Initialization;
 
 internal class ApplicationDbInitializer
 {

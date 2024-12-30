@@ -1,14 +1,14 @@
 ﻿using Finbuckle.MultiTenant;
-using GenocsAspire.Multitenancy.Infrastructure.Common;
-using GenocsAspire.Multitenancy.Infrastructure.Multitenancy;
-using GenocsAspire.Multitenancy.Shared.Authorization;
-using GenocsAspire.Multitenancy.Shared.Multitenancy;
+using Genocs.MultitenancyAspire.Infrastructure.Common;
+using Genocs.MultitenancyAspire.Infrastructure.Multitenancy;
+using Genocs.MultitenancyAspire.Shared.Authorization;
+using Genocs.MultitenancyAspire.Shared.Multitenancy;
 using Hangfire.Client;
 using Hangfire.Logging;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace GenocsAspire.Multitenancy.Infrastructure.BackgroundJobs;
+namespace Genocs.MultitenancyAspire.Infrastructure.BackgroundJobs;
 
 public class GNXJobFilter : IClientFilter
 {

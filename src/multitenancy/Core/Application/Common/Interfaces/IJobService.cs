@@ -1,6 +1,6 @@
 using System.Linq.Expressions;
 
-namespace GenocsAspire.Multitenancy.Application.Common.Interfaces;
+namespace Genocs.MultitenancyAspire.Application.Common.Interfaces;
 
 public interface IJobService : ITransientService
 {

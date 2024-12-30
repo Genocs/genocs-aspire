@@ -1,4 +1,4 @@
-namespace GenocsAspire.Multitenancy.Infrastructure.Caching;
+namespace Genocs.MultitenancyAspire.Infrastructure.Caching;
 
 public class CacheSettings
 {

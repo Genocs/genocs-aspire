@@ -1,4 +1,4 @@
-﻿namespace Genocs.BlazorWasm.Template.Infrastructure.Common;
+﻿namespace Genocs.BlazorAspire.Infrastructure.Common;
 
 public interface IAppService
 {

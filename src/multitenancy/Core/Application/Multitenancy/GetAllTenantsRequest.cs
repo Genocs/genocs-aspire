@@ -1,4 +1,4 @@
-﻿namespace GenocsAspire.Multitenancy.Application.Multitenancy;
+﻿namespace Genocs.MultitenancyAspire.Application.Multitenancy;
 
 public class GetAllTenantsRequest : IRequest<List<TenantDto>>
 {

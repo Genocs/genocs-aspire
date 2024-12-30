@@ -1,6 +1,4 @@
-using GenocsAspire.Multitenancy.Application.Common.Interfaces;
-
-namespace GenocsAspire.Multitenancy.Application.Auditing;
+namespace Genocs.MultitenancyAspire.Application.Auditing;
 
 public class GetMyAuditLogsRequest : IRequest<List<AuditDto>>
 {

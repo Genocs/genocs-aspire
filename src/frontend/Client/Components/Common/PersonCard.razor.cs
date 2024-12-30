@@ -1,9 +1,9 @@
-﻿using Genocs.BlazorWasm.Template.Infrastructure.Common;
-using Genocs.BlazorWasm.Template.Shared.Authorization;
+﻿using Genocs.BlazorAspire.Infrastructure.Common;
+using Genocs.BlazorAspire.Shared.Authorization;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Authorization;
 
-namespace Genocs.BlazorWasm.Template.Client.Components.Common;
+namespace Genocs.BlazorAspire.Client.Components.Common;
 
 public partial class PersonCard
 {

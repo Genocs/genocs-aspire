@@ -1,16 +1,16 @@
-﻿using Genocs.BlazorWasm.Template.Client.Components.Common;
-using Genocs.BlazorWasm.Template.Client.Components.Dialogs;
-using Genocs.BlazorWasm.Template.Infrastructure.ApiClient;
-using Genocs.BlazorWasm.Template.Infrastructure.Auth;
-using Genocs.BlazorWasm.Template.Infrastructure.Common;
-using Genocs.BlazorWasm.Template.Client.Shared;
-using Genocs.BlazorWasm.Template.Shared.Authorization;
+﻿using Genocs.BlazorAspire.Client.Components.Common;
+using Genocs.BlazorAspire.Client.Components.Dialogs;
+using Genocs.BlazorAspire.Infrastructure.ApiClient;
+using Genocs.BlazorAspire.Infrastructure.Auth;
+using Genocs.BlazorAspire.Infrastructure.Common;
+using Genocs.BlazorAspire.Client.Shared;
+using Genocs.BlazorAspire.Shared.Authorization;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Components.Forms;
 using MudBlazor;
 
-namespace Genocs.BlazorWasm.Template.Client.Pages.Identity.Account;
+namespace Genocs.BlazorAspire.Client.Pages.Identity.Account;
 
 public partial class Profile
 {

@@ -1,4 +1,4 @@
-﻿namespace GenocsAspire.Multitenancy.Domain.Common.Contracts;
+﻿namespace Genocs.MultitenancyAspire.Domain.Common.Contracts;
 
 /// <summary>
 /// Apply this marker interface only to aggregate root entities

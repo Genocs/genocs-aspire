@@ -1,11 +1,11 @@
-using GenocsAspire.Multitenancy.Application.Common.Interfaces;
-using GenocsAspire.Multitenancy.Domain.Catalog;
-using GenocsAspire.Multitenancy.Infrastructure.Persistence.Context;
-using GenocsAspire.Multitenancy.Infrastructure.Persistence.Initialization;
-using Microsoft.Extensions.Logging;
 using System.Reflection;
+using Genocs.MultitenancyAspire.Application.Common.Interfaces;
+using Genocs.MultitenancyAspire.Domain.Catalog;
+using Genocs.MultitenancyAspire.Infrastructure.Persistence.Context;
+using Genocs.MultitenancyAspire.Infrastructure.Persistence.Initialization;
+using Microsoft.Extensions.Logging;
 
-namespace GenocsAspire.Multitenancy.Infrastructure.Catalog;
+namespace Genocs.MultitenancyAspire.Infrastructure.Catalog;
 
 public class BrandSeeder : ICustomSeeder
 {

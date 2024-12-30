@@ -1,6 +1,4 @@
-using GenocsAspire.Multitenancy.Application.Common.Validation;
-
-namespace GenocsAspire.Multitenancy.Application.Identity.Tokens;
+namespace Genocs.MultitenancyAspire.Application.Identity.Tokens;
 
 public record TokenRequest(string Email, string Password);
 

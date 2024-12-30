@@ -1,9 +1,9 @@
-﻿using Genocs.BlazorWasm.Template.Infrastructure.ApiClient;
-using Genocs.BlazorWasm.Template.Shared.Authorization;
+﻿using Genocs.BlazorAspire.Infrastructure.ApiClient;
+using Genocs.BlazorAspire.Shared.Authorization;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.WebAssembly.Authentication;
 
-namespace Genocs.BlazorWasm.Template.Infrastructure.Auth.Jwt;
+namespace Genocs.BlazorAspire.Infrastructure.Auth.Jwt;
 
 public class JwtAuthenticationService : AuthenticationStateProvider, IAuthenticationService, IAccessTokenProvider
 {

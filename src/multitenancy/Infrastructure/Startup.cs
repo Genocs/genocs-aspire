@@ -1,32 +1,30 @@
-using GenocsAspire.Multitenancy.Infrastructure;
-using GenocsAspire.Multitenancy.Infrastructure.Auth;
-using GenocsAspire.Multitenancy.Infrastructure.BackgroundJobs;
-using GenocsAspire.Multitenancy.Infrastructure.Caching;
-using GenocsAspire.Multitenancy.Infrastructure.Common;
-using GenocsAspire.Multitenancy.Infrastructure.Cors;
-using GenocsAspire.Multitenancy.Infrastructure.FileStorage;
-using GenocsAspire.Multitenancy.Infrastructure.Localization;
-using GenocsAspire.Multitenancy.Infrastructure.Mailing;
-using GenocsAspire.Multitenancy.Infrastructure.Mapping;
-using GenocsAspire.Multitenancy.Infrastructure.Middleware;
-using GenocsAspire.Multitenancy.Infrastructure.Multitenancy;
-using GenocsAspire.Multitenancy.Infrastructure.Notifications;
-using GenocsAspire.Multitenancy.Infrastructure.OpenApi;
-using GenocsAspire.Multitenancy.Infrastructure.Persistence;
-using GenocsAspire.Multitenancy.Infrastructure.Persistence.Initialization;
-using GenocsAspire.Multitenancy.Infrastructure.SecurityHeaders;
-using GenocsAspire.Multitenancy.Infrastructure.Validations;
+using System.Reflection;
+using System.Runtime.CompilerServices;
+using Genocs.MultitenancyAspire.Infrastructure.Auth;
+using Genocs.MultitenancyAspire.Infrastructure.BackgroundJobs;
+using Genocs.MultitenancyAspire.Infrastructure.Caching;
+using Genocs.MultitenancyAspire.Infrastructure.Common;
+using Genocs.MultitenancyAspire.Infrastructure.Cors;
+using Genocs.MultitenancyAspire.Infrastructure.FileStorage;
+using Genocs.MultitenancyAspire.Infrastructure.Localization;
+using Genocs.MultitenancyAspire.Infrastructure.Mailing;
+using Genocs.MultitenancyAspire.Infrastructure.Mapping;
+using Genocs.MultitenancyAspire.Infrastructure.Middleware;
+using Genocs.MultitenancyAspire.Infrastructure.Multitenancy;
+using Genocs.MultitenancyAspire.Infrastructure.Notifications;
+using Genocs.MultitenancyAspire.Infrastructure.OpenApi;
+using Genocs.MultitenancyAspire.Infrastructure.Persistence;
+using Genocs.MultitenancyAspire.Infrastructure.Persistence.Initialization;
+using Genocs.MultitenancyAspire.Infrastructure.SecurityHeaders;
+using Genocs.MultitenancyAspire.Infrastructure.Validations;
 using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Routing;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using System.Reflection;
-using System.Runtime.CompilerServices;
 
 [assembly: InternalsVisibleTo("Infrastructure.Test")]
 
-namespace GenocsAspire.Multitenancy.Infrastructure;
+namespace Genocs.MultitenancyAspire.Infrastructure;
 
 public static class Startup
 {
@@ -35,8 +33,8 @@ public static class Startup
         var applicationAssembly = typeof(Application.Startup).GetTypeInfo().Assembly;
         MapsterSettings.Configure();
         return services
-            .AddApiVersioning()
-            .AddAuth(config)
+            .AddGnxApiVersioning()
+            .AddGnxAuth(config)
             .AddBackgroundJobs(config)
             .AddCaching(config)
             .AddCorsPolicy(config)
@@ -55,13 +53,19 @@ public static class Startup
             .AddServices();
     }
 
-    private static IServiceCollection AddApiVersioning(this IServiceCollection services) =>
-        services.AddApiVersioning(config =>
-        {
-            config.DefaultApiVersion = new ApiVersion(1, 0);
-            config.AssumeDefaultVersionWhenUnspecified = true;
-            config.ReportApiVersions = true;
-        });
+    private static IServiceCollection AddGnxApiVersioning(this IServiceCollection services)
+    {
+        // Core API Versioning services with support for Minimal APIs
+        // API version-aware extensions for MVC Core with controllers (not full MVC)
+        services
+                .AddApiVersioning()
+                .AddMvc()
+                .AddApiExplorer();
+
+        // API version-aware API Explorer extensions
+        services.AddEndpointsApiExplorer();
+        return services;
+    }
 
     private static IServiceCollection AddHealthCheck(this IServiceCollection services)
         => services.AddHealthChecks().AddCheck<TenantHealthCheck>("Tenant").Services;
@@ -85,7 +89,7 @@ public static class Startup
             .UseRouting()
             .UseCorsPolicy()
             .UseAuthentication()
-            .UseCurrentUser()
+            .UseGnxCurrentUser()
             .UseMultiTenancy()
             .UseAuthorization()
             .UseRequestLogging(config)
@@ -101,5 +105,5 @@ public static class Startup
     }
 
     private static IEndpointConventionBuilder MapHealthCheck(this IEndpointRouteBuilder endpoints) =>
-        endpoints.MapHealthChecks("/hc");
+        endpoints.MapHealthChecks("/healthz");
 }

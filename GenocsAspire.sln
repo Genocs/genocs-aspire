@@ -61,7 +61,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared", "src\multitenancy\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "src\multitenancy\Infrastructure\Infrastructure.csproj", "{820945F7-355F-4DA1-9B9A-51E34FCCA6B9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Multitenancy.WebApi", "src\multitenancy\WebApi\Multitenancy.WebApi.csproj", "{F4B34DF0-A650-41BC-88D6-30D200B4EAE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Multitenancy.WebApi", "src\multitenancy\Multitenancy.WebApi\Multitenancy.WebApi.csproj", "{F4B34DF0-A650-41BC-88D6-30D200B4EAE7}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Migrators.MSSQL", "src\multitenancy\Migrators\Migrators.MSSQL\Migrators.MSSQL.csproj", "{B6127146-BA49-4ECB-839F-FE3D961D4D0B}"
 EndProject

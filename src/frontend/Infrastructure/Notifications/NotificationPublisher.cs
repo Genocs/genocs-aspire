@@ -1,8 +1,8 @@
-using Genocs.BlazorWasm.Template.Shared.Notifications;
+using Genocs.BlazorAspire.Shared.Notifications;
 using MediatR;
 using Microsoft.Extensions.Logging;
 
-namespace Genocs.BlazorWasm.Template.Infrastructure.Notifications;
+namespace Genocs.BlazorAspire.Infrastructure.Notifications;
 
 public class NotificationPublisher : INotificationPublisher
 {

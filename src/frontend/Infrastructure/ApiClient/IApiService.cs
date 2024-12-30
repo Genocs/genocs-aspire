@@ -1,4 +1,4 @@
-namespace Genocs.BlazorWasm.Template.Infrastructure.ApiClient;
+namespace Genocs.BlazorAspire.Infrastructure.ApiClient;
 
 public interface IApiService
 {

@@ -1,9 +1,9 @@
-using GenocsAspire.Multitenancy.Application.Auditing;
-using GenocsAspire.Multitenancy.Infrastructure.Persistence.Context;
+using Genocs.MultitenancyAspire.Application.Auditing;
+using Genocs.MultitenancyAspire.Infrastructure.Persistence.Context;
 using Mapster;
 using Microsoft.EntityFrameworkCore;
 
-namespace GenocsAspire.Multitenancy.Infrastructure.Auditing;
+namespace Genocs.MultitenancyAspire.Infrastructure.Auditing;
 
 public class AuditService : IAuditService
 {

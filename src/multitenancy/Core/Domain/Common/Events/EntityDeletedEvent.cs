@@ -1,6 +1,4 @@
-using GenocsAspire.Multitenancy.Domain.Common.Contracts;
-
-namespace GenocsAspire.Multitenancy.Domain.Common.Events;
+namespace Genocs.MultitenancyAspire.Domain.Common.Events;
 
 public static class EntityDeletedEvent
 {

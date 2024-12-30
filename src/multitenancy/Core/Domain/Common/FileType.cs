@@ -1,6 +1,6 @@
 using System.ComponentModel;
 
-namespace GenocsAspire.Multitenancy.Domain.Common;
+namespace Genocs.MultitenancyAspire.Domain.Common;
 
 public enum FileType
 {

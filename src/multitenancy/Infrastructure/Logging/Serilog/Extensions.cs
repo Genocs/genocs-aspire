@@ -1,4 +1,3 @@
-using Figgle;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -8,7 +7,7 @@ using Serilog.Events;
 using Serilog.Exceptions;
 using Serilog.Formatting.Compact;
 
-namespace GenocsAspire.Multitenancy.Infrastructure.Logging.Serilog;
+namespace Genocs.MultitenancyAspire.Infrastructure.Logging.Serilog;
 
 public static class Extensions
 {

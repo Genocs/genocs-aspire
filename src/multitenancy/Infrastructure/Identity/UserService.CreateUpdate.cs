@@ -1,10 +1,10 @@
-﻿using GenocsAspire.Multitenancy.Application.Common.Exceptions;
-using GenocsAspire.Multitenancy.Application.Common.Mailing;
-using GenocsAspire.Multitenancy.Application.Identity.Users;
-using GenocsAspire.Multitenancy.Domain.Common;
-using GenocsAspire.Multitenancy.Domain.Identity;
-using GenocsAspire.Multitenancy.Infrastructure.Identity;
-using GenocsAspire.Multitenancy.Shared.Authorization;
+﻿using Genocs.MultitenancyAspire.Application.Common.Exceptions;
+using Genocs.MultitenancyAspire.Application.Common.Mailing;
+using Genocs.MultitenancyAspire.Application.Identity.Users;
+using Genocs.MultitenancyAspire.Domain.Common;
+using Genocs.MultitenancyAspire.Domain.Identity;
+using Genocs.MultitenancyAspire.Infrastructure.Identity;
+using Genocs.MultitenancyAspire.Shared.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Identity.Web;

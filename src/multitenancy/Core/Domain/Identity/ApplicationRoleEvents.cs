@@ -1,6 +1,4 @@
-﻿using GenocsAspire.Multitenancy.Domain.Common.Contracts;
-
-namespace GenocsAspire.Multitenancy.Domain.Identity;
+﻿namespace Genocs.MultitenancyAspire.Domain.Identity;
 
 public abstract class ApplicationRoleEvent : DomainEvent
 {

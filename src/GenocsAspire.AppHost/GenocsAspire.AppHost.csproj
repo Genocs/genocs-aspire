@@ -23,7 +23,7 @@
         <ProjectReference Include="..\products\Products.WebApi\Products.WebApi.csproj" />
         <ProjectReference Include="..\orders\Orders.WebApi\Orders.WebApi.csproj" />
         <ProjectReference Include="..\signalr\SignalR.WebApi\SignalR.WebApi.csproj" />
-        <ProjectReference Include="..\multitenancy\WebApi\Multitenancy.WebApi.csproj" />
+        <ProjectReference Include="..\multitenancy\Multitenancy.WebApi\Multitenancy.WebApi.csproj" />
         <ProjectReference Include="..\frontend\Host\Host.csproj" />
 
     </ItemGroup>

@@ -1,6 +1,4 @@
-using GenocsAspire.Multitenancy.Application.Common.Interfaces;
-
-namespace GenocsAspire.Multitenancy.Application.Identity.Tokens;
+namespace Genocs.MultitenancyAspire.Application.Identity.Tokens;
 
 public interface ITokenService : ITransientService
 {

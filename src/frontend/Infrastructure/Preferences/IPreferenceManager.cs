@@ -1,4 +1,4 @@
-﻿namespace Genocs.BlazorWasm.Template.Infrastructure.Preferences;
+﻿namespace Genocs.BlazorAspire.Infrastructure.Preferences;
 
 public interface IPreferenceManager : IAppService
 {

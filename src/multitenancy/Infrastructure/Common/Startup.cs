@@ -1,7 +1,7 @@
-﻿using GenocsAspire.Multitenancy.Application.Common.Interfaces;
+﻿using Genocs.MultitenancyAspire.Application.Common.Interfaces;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace GenocsAspire.Multitenancy.Infrastructure.Common;
+namespace Genocs.MultitenancyAspire.Infrastructure.Common;
 
 internal static class Startup
 {

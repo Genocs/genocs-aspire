@@ -1,6 +1,6 @@
 ﻿using System.Security.Claims;
 
-namespace GenocsAspire.Multitenancy.Infrastructure.Auth;
+namespace Genocs.MultitenancyAspire.Infrastructure.Auth;
 
 public interface ICurrentUserInitializer
 {

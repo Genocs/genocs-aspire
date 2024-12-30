@@ -1,5 +1,5 @@
-﻿using GenocsAspire.Multitenancy.Application.Common.Persistence;
-using GenocsAspire.Multitenancy.Infrastructure.Common;
+﻿using Genocs.MultitenancyAspire.Application.Common.Persistence;
+using Genocs.MultitenancyAspire.Infrastructure.Common;
 using Microsoft.Data.SqlClient;
 using Microsoft.Data.Sqlite;
 using Microsoft.Extensions.Logging;
@@ -7,7 +7,7 @@ using Microsoft.Extensions.Options;
 using MySqlConnector;
 using Npgsql;
 
-namespace GenocsAspire.Multitenancy.Infrastructure.Persistence.ConnectionString;
+namespace Genocs.MultitenancyAspire.Infrastructure.Persistence.ConnectionString;
 
 internal class ConnectionStringValidator : IConnectionStringValidator
 {

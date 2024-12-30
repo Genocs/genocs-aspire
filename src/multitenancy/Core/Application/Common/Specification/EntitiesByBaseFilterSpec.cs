@@ -1,6 +1,4 @@
-﻿using GenocsAspire.Multitenancy.Application.Common.Models;
-
-namespace GenocsAspire.Multitenancy.Application.Common.Specification;
+﻿namespace Genocs.MultitenancyAspire.Application.Common.Specification;
 
 public class EntitiesByBaseFilterSpec<T, TResult> : Specification<T, TResult>
 {

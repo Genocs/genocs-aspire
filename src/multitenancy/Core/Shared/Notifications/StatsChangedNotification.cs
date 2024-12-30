@@ -1,4 +1,4 @@
-namespace GenocsAspire.Multitenancy.Shared.Notifications;
+namespace Genocs.MultitenancyAspire.Shared.Notifications;
 
 public class StatsChangedNotification : INotificationMessage
 {

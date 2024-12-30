@@ -1,9 +1,7 @@
-using GenocsAspire.Multitenancy.Application.Common.Interfaces;
-using GenocsAspire.Multitenancy.Application.Common.Models;
-using GenocsAspire.Multitenancy.Application.Identity.Users.Password;
+using Genocs.MultitenancyAspire.Application.Identity.Users.Password;
 using System.Security.Claims;
 
-namespace GenocsAspire.Multitenancy.Application.Identity.Users;
+namespace Genocs.MultitenancyAspire.Application.Identity.Users;
 
 public interface IUserService : ITransientService
 {

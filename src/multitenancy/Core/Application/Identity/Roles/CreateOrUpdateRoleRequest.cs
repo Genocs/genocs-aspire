@@ -1,6 +1,4 @@
-using GenocsAspire.Multitenancy.Application.Common.Validation;
-
-namespace GenocsAspire.Multitenancy.Application.Identity.Roles;
+namespace Genocs.MultitenancyAspire.Application.Identity.Roles;
 
 public class CreateOrUpdateRoleRequest
 {

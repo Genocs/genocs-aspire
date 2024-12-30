@@ -1,4 +1,4 @@
-﻿namespace Genocs.BlazorWasm.Template.Shared.Notifications;
+﻿namespace Genocs.BlazorAspire.Shared.Notifications;
 
 public class JobNotification : INotificationMessage
 {

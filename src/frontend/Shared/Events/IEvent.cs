@@ -1,4 +1,4 @@
-﻿namespace Genocs.BlazorWasm.Template.Shared.Events;
+﻿namespace Genocs.BlazorAspire.Shared.Events;
 
 public interface IEvent
 {

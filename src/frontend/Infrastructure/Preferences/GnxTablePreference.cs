@@ -1,6 +1,6 @@
-using Genocs.BlazorWasm.Template.Shared.Notifications;
+using Genocs.BlazorAspire.Shared.Notifications;
 
-namespace Genocs.BlazorWasm.Template.Infrastructure.Preferences;
+namespace Genocs.BlazorAspire.Infrastructure.Preferences;
 
 public class GnxTablePreference : INotificationMessage
 {

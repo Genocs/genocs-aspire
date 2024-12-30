@@ -1,11 +1,11 @@
 using Dapper;
 using Finbuckle.MultiTenant;
-using GenocsAspire.Multitenancy.Application.Common.Persistence;
-using GenocsAspire.Multitenancy.Domain.Common.Contracts;
-using GenocsAspire.Multitenancy.Infrastructure.Persistence.Context;
+using Genocs.MultitenancyAspire.Application.Common.Persistence;
+using Genocs.MultitenancyAspire.Domain.Common.Contracts;
+using Genocs.MultitenancyAspire.Infrastructure.Persistence.Context;
 using System.Data;
 
-namespace GenocsAspire.Multitenancy.Infrastructure.Persistence.Repository;
+namespace Genocs.MultitenancyAspire.Infrastructure.Persistence.Repository;
 
 public class DapperRepository : IDapperRepository
 {

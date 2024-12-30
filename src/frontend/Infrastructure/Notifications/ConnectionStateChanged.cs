@@ -1,5 +1,5 @@
-﻿using Genocs.BlazorWasm.Template.Shared.Notifications;
+﻿using Genocs.BlazorAspire.Shared.Notifications;
 
-namespace Genocs.BlazorWasm.Template.Infrastructure.Notifications;
+namespace Genocs.BlazorAspire.Infrastructure.Notifications;
 
 public record ConnectionStateChanged(ConnectionState State, string? Message) : INotificationMessage;

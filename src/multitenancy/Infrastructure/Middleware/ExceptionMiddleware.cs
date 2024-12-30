@@ -1,12 +1,12 @@
-using GenocsAspire.Multitenancy.Application.Common.Exceptions;
-using GenocsAspire.Multitenancy.Application.Common.Interfaces;
+using Genocs.MultitenancyAspire.Application.Common.Exceptions;
+using Genocs.MultitenancyAspire.Application.Common.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Localization;
 using Serilog;
 using Serilog.Context;
 using System.Net;
 
-namespace GenocsAspire.Multitenancy.Infrastructure.Middleware;
+namespace Genocs.MultitenancyAspire.Infrastructure.Middleware;
 
 internal class ExceptionMiddleware : IMiddleware
 {

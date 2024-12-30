@@ -1,4 +1,4 @@
-﻿namespace Genocs.BlazorWasm.Template.Infrastructure.Preferences;
+﻿namespace Genocs.BlazorAspire.Infrastructure.Preferences;
 
 /// <summary>
 /// The interface is used to define the preference of the user.

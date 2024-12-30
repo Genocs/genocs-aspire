@@ -1,7 +1,7 @@
 using System.ComponentModel.DataAnnotations.Schema;
 using MassTransit;
 
-namespace GenocsAspire.Multitenancy.Domain.Common.Contracts;
+namespace Genocs.MultitenancyAspire.Domain.Common.Contracts;
 
 public abstract class BaseEntity : BaseEntity<DefaultIdType>
 {

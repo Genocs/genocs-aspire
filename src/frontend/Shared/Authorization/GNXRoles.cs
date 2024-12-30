@@ -1,6 +1,6 @@
 using System.Collections.ObjectModel;
 
-namespace Genocs.BlazorWasm.Template.Shared.Authorization;
+namespace Genocs.BlazorAspire.Shared.Authorization;
 
 public static class GNXRoles
 {

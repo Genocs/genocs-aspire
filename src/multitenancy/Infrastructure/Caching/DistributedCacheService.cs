@@ -1,10 +1,10 @@
-using GenocsAspire.Multitenancy.Application.Common.Caching;
-using GenocsAspire.Multitenancy.Application.Common.Interfaces;
+using System.Text;
+using Genocs.MultitenancyAspire.Application.Common.Caching;
+using Genocs.MultitenancyAspire.Application.Common.Interfaces;
 using Microsoft.Extensions.Caching.Distributed;
 using Microsoft.Extensions.Logging;
-using System.Text;
 
-namespace GenocsAspire.Multitenancy.Infrastructure.Caching;
+namespace Genocs.MultitenancyAspire.Infrastructure.Caching;
 
 #pragma warning disable CA2254
 public class DistributedCacheService : ICacheService

@@ -1,6 +1,4 @@
-﻿using GenocsAspire.Multitenancy.Domain.Common.Contracts;
-
-namespace GenocsAspire.Multitenancy.Application.Common.Specification;
+﻿namespace Genocs.MultitenancyAspire.Application.Common.Specification;
 
 public class AuditableEntitiesByCreatedOnBetweenSpec<T> : Specification<T>
     where T : AuditableEntity

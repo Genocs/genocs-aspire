@@ -1,9 +1,9 @@
-using GenocsAspire.Multitenancy.Application.Common.Interfaces;
+using Genocs.MultitenancyAspire.Application.Common.Interfaces;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 using Newtonsoft.Json.Serialization;
 
-namespace GenocsAspire.Multitenancy.Infrastructure.Common.Services;
+namespace Genocs.MultitenancyAspire.Infrastructure.Common.Services;
 
 public class NewtonSoftService : ISerializerService
 {

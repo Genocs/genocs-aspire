@@ -1,8 +1,8 @@
-using GenocsAspire.Multitenancy.Application.Common.Interfaces;
-using GenocsAspire.Multitenancy.Shared.Authorization;
 using System.Security.Claims;
+using Genocs.MultitenancyAspire.Application.Common.Interfaces;
+using Genocs.MultitenancyAspire.Shared.Authorization;
 
-namespace GenocsAspire.Multitenancy.Infrastructure.Auth;
+namespace Genocs.MultitenancyAspire.Infrastructure.Auth;
 
 public class CurrentUser : ICurrentUser, ICurrentUserInitializer
 {

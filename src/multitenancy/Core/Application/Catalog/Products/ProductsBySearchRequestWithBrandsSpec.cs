@@ -1,7 +1,4 @@
-﻿using GenocsAspire.Multitenancy.Application.Common.Models;
-using GenocsAspire.Multitenancy.Application.Common.Specification;
-
-namespace GenocsAspire.Multitenancy.Application.Catalog.Products;
+﻿namespace Genocs.MultitenancyAspire.Application.Catalog.Products;
 
 public class ProductsBySearchRequestWithBrandsSpec : EntitiesByPaginationFilterSpec<Product, ProductDto>
 {

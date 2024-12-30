@@ -1,8 +1,8 @@
-﻿using GenocsAspire.Multitenancy.Application.Common.Caching;
+﻿using Genocs.MultitenancyAspire.Application.Common.Caching;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace GenocsAspire.Multitenancy.Infrastructure.Caching;
+namespace Genocs.MultitenancyAspire.Infrastructure.Caching;
 
 internal static class Startup
 {

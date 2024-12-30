@@ -1,5 +1,5 @@
-using GenocsAspire.Multitenancy.Infrastructure.BackgroundJobs;
-using GenocsAspire.Multitenancy.Infrastructure.Common;
+using Genocs.MultitenancyAspire.Infrastructure.BackgroundJobs;
+using Genocs.MultitenancyAspire.Infrastructure.Common;
 using Hangfire;
 using Hangfire.Console;
 using Hangfire.Console.Extensions;
@@ -12,7 +12,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Serilog;
 
-namespace GenocsAspire.Multitenancy.Infrastructure.BackgroundJobs;
+namespace Genocs.MultitenancyAspire.Infrastructure.BackgroundJobs;
 
 internal static class Startup
 {

@@ -1,6 +1,4 @@
-﻿using GenocsAspire.Multitenancy.Application.Common.Interfaces;
-
-namespace GenocsAspire.Multitenancy.Application.Common.Caching;
+﻿namespace Genocs.MultitenancyAspire.Application.Common.Caching;
 
 public interface ICacheKeyService : IScopedService
 {

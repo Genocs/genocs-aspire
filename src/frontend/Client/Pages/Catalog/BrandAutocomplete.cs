@@ -1,10 +1,10 @@
-﻿using Genocs.BlazorWasm.Template.Infrastructure.ApiClient;
-using Genocs.BlazorWasm.Template.Client.Shared;
+﻿using Genocs.BlazorAspire.Infrastructure.ApiClient;
+using Genocs.BlazorAspire.Client.Shared;
 using Microsoft.AspNetCore.Components;
 using Microsoft.Extensions.Localization;
 using MudBlazor;
 
-namespace Genocs.BlazorWasm.Template.Client.Pages.Catalog;
+namespace Genocs.BlazorAspire.Client.Pages.Catalog;
 
 public class BrandAutocomplete : MudAutocomplete<DefaultIdType>
 {

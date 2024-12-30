@@ -1,8 +1,8 @@
-﻿using GenocsAspire.Multitenancy.Application.Common.Exceptions;
-using GenocsAspire.Multitenancy.Application.Identity.Users;
-using GenocsAspire.Multitenancy.Domain.Identity;
-using GenocsAspire.Multitenancy.Shared.Authorization;
-using GenocsAspire.Multitenancy.Shared.Multitenancy;
+﻿using Genocs.MultitenancyAspire.Application.Common.Exceptions;
+using Genocs.MultitenancyAspire.Application.Identity.Users;
+using Genocs.MultitenancyAspire.Domain.Identity;
+using Genocs.MultitenancyAspire.Shared.Authorization;
+using Genocs.MultitenancyAspire.Shared.Multitenancy;
 using Microsoft.EntityFrameworkCore;
 
 namespace Genocs.Microservice.Infrastructure.Identity;

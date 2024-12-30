@@ -1,7 +1,11 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace GenocsAspire.Multitenancy.Infrastructure.Auth.Jwt;
+namespace Genocs.MultitenancyAspire.Infrastructure.Auth.Jwt;
 
+/// <summary>
+/// The JwtSettings class is used to configure the JWT settings.
+/// This class uses the IValidatableObject interface to validate the configuration.
+/// </summary>
 public class JwtSettings : IValidatableObject
 {
     public string Key { get; set; } = string.Empty;

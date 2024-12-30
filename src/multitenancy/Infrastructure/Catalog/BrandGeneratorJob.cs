@@ -1,8 +1,8 @@
 ﻿using Ardalis.Specification;
-using GenocsAspire.Multitenancy.Application.Catalog.Brands;
-using GenocsAspire.Multitenancy.Application.Common.Interfaces;
-using GenocsAspire.Multitenancy.Application.Common.Persistence;
-using GenocsAspire.Multitenancy.Domain.Catalog;
+using Genocs.MultitenancyAspire.Application.Catalog.Brands;
+using Genocs.MultitenancyAspire.Application.Common.Interfaces;
+using Genocs.MultitenancyAspire.Application.Common.Persistence;
+using Genocs.MultitenancyAspire.Domain.Catalog;
 using Hangfire;
 using Hangfire.Console.Extensions;
 using Hangfire.Console.Progress;
@@ -10,7 +10,7 @@ using Hangfire.Server;
 using MediatR;
 using Microsoft.Extensions.Logging;
 
-namespace GenocsAspire.Multitenancy.Infrastructure.Catalog;
+namespace Genocs.MultitenancyAspire.Infrastructure.Catalog;
 
 public class BrandGeneratorJob : IBrandGeneratorJob
 {

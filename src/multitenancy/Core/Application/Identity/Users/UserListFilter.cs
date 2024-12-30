@@ -1,6 +1,4 @@
-using GenocsAspire.Multitenancy.Application.Common.Models;
-
-namespace GenocsAspire.Multitenancy.Application.Identity.Users;
+namespace Genocs.MultitenancyAspire.Application.Identity.Users;
 
 public class UserListFilter : PaginationFilter
 {

@@ -1,4 +1,4 @@
-namespace GenocsAspire.Multitenancy.Infrastructure.BackgroundJobs;
+namespace Genocs.MultitenancyAspire.Infrastructure.BackgroundJobs;
 
 public class HangfireStorageSettings
 {

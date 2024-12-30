@@ -1,4 +1,4 @@
-namespace GenocsAspire.Multitenancy.Application.Auditing;
+namespace Genocs.MultitenancyAspire.Application.Auditing;
 
 public class AuditDto
 {

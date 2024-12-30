@@ -1,11 +1,11 @@
-﻿using GenocsAspire.Multitenancy.Application.Common.Exceptions;
+﻿using System.Security.Claims;
+using System.Text;
+using Genocs.MultitenancyAspire.Application.Common.Exceptions;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
-using System.Security.Claims;
-using System.Text;
 
-namespace GenocsAspire.Multitenancy.Infrastructure.Auth.Jwt;
+namespace Genocs.MultitenancyAspire.Infrastructure.Auth.Jwt;
 
 public class ConfigureJwtBearerOptions : IConfigureNamedOptions<JwtBearerOptions>
 {

@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Authorization;
 
-namespace GenocsAspire.Multitenancy.Infrastructure.Auth.Permissions;
+namespace Genocs.MultitenancyAspire.Infrastructure.Auth.Permissions;
 
 internal class PermissionRequirement : IAuthorizationRequirement
 {

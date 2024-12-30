@@ -1,4 +1,4 @@
-﻿namespace GenocsAspire.Multitenancy.Infrastructure.Auth.AzureAd;
+﻿namespace Genocs.MultitenancyAspire.Infrastructure.Auth.AzureAd;
 
 internal static class OpenIdConnectClaimTypes
 {

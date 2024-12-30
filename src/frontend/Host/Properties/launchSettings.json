@@ -1,11 +1,11 @@
 {
   "profiles": {
-    "Local": {
+    "Host": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
+      "applicationUrl": "https://localhost:5002;http://localhost:5003",
       "inspectUri": "{wsProtocol}://{url.hostname}:{url.port}/_framework/debug/ws-proxy?browser={browserInspectUri}",
-      "applicationUrl": "https://localhost:5900;http://localhost:5901",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

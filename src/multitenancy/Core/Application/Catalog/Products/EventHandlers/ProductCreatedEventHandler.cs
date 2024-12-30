@@ -1,7 +1,6 @@
-using GenocsAspire.Multitenancy.Application.Common.Events;
-using GenocsAspire.Multitenancy.Domain.Common.Events;
+using Genocs.MultitenancyAspire.Domain.Common.Events;
 
-namespace GenocsAspire.Multitenancy.Application.Catalog.Products.EventHandlers;
+namespace Genocs.MultitenancyAspire.Application.Catalog.Products.EventHandlers;
 
 public class ProductCreatedEventHandler : EventNotificationHandler<EntityCreatedEvent<Product>>
 {

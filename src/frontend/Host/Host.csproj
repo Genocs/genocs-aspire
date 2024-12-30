@@ -2,18 +2,16 @@
 
     <PropertyGroup>
         <TargetFramework>net9.0</TargetFramework>
-        <RootNamespace>Genocs.BlazorWasm.Template.Host</RootNamespace>
-        <AssemblyName>Genocs.BlazorWasm.Template.Host</AssemblyName>
+        <RootNamespace>Genocs.BlazorAspire.Host</RootNamespace>
+        <AssemblyName>Genocs.BlazorAspire.Host</AssemblyName>
         <BlazorWebAssemblyLoadAllGlobalizationData>true</BlazorWebAssemblyLoadAllGlobalizationData>
     </PropertyGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\..\GenocsAspire.ServiceDefaults\GenocsAspire.ServiceDefaults.csproj" />
-    </ItemGroup>
-
-    <ItemGroup>
-        <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="8.0.6" />
-        <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.20.1" />
+        <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="9.0.0" />
+        <PackageReference Include="Microsoft.AspNetCore.SignalR.Client" Version="9.0.0" />
+        <PackageReference Include="Microsoft.Extensions.Http" Version="9.0.0" />
+        <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.21.0" />
     </ItemGroup>
 
     <ItemGroup>

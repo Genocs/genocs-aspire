@@ -1,8 +1,8 @@
 using System.Text;
-using GenocsAspire.Multitenancy.Application.Common.Mailing;
+using Genocs.MultitenancyAspire.Application.Common.Mailing;
 using RazorEngineCore;
 
-namespace GenocsAspire.Multitenancy.Infrastructure.Mailing;
+namespace Genocs.MultitenancyAspire.Infrastructure.Mailing;
 
 public class EmailTemplateService : IEmailTemplateService
 {

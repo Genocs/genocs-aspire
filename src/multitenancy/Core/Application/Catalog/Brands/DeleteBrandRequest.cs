@@ -1,6 +1,6 @@
-﻿using GenocsAspire.Multitenancy.Application.Catalog.Products;
+﻿using Genocs.MultitenancyAspire.Application.Catalog.Products;
 
-namespace GenocsAspire.Multitenancy.Application.Catalog.Brands;
+namespace Genocs.MultitenancyAspire.Application.Catalog.Brands;
 
 public class DeleteBrandRequest : IRequest<DefaultIdType>
 {

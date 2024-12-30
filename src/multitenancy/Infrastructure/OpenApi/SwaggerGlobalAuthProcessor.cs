@@ -6,7 +6,7 @@ using NSwag.Generation.AspNetCore;
 using NSwag.Generation.Processors;
 using NSwag.Generation.Processors.Contexts;
 
-namespace GenocsAspire.Multitenancy.Infrastructure.OpenApi;
+namespace Genocs.MultitenancyAspire.Infrastructure.OpenApi;
 
 internal static class ObjectExtensions
 {

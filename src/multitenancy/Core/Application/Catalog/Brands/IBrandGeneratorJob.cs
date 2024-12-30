@@ -1,7 +1,6 @@
-﻿using GenocsAspire.Multitenancy.Application.Common.Interfaces;
-using System.ComponentModel;
+﻿using System.ComponentModel;
 
-namespace GenocsAspire.Multitenancy.Application.Catalog.Brands;
+namespace Genocs.MultitenancyAspire.Application.Catalog.Brands;
 
 public interface IBrandGeneratorJob : IScopedService
 {

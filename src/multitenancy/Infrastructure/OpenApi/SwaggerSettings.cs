@@ -1,4 +1,4 @@
-namespace GenocsAspire.Multitenancy.Infrastructure.OpenApi;
+namespace Genocs.MultitenancyAspire.Infrastructure.OpenApi;
 
 public class SwaggerSettings
 {

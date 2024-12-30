@@ -1,9 +1,6 @@
-﻿using GenocsAspire.Multitenancy.Application.Common.Exporters;
-using GenocsAspire.Multitenancy.Application.Common.Models;
-using GenocsAspire.Multitenancy.Application.Common.Persistence;
-using GenocsAspire.Multitenancy.Application.Common.Specification;
+﻿using Genocs.MultitenancyAspire.Application.Common.Exporters;
 
-namespace GenocsAspire.Multitenancy.Application.Catalog.Products;
+namespace Genocs.MultitenancyAspire.Application.Catalog.Products;
 
 public class ExportProductsRequest : BaseFilter, IRequest<Stream>
 {

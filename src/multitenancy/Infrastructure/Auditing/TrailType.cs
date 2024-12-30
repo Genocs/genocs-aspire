@@ -1,4 +1,4 @@
-namespace GenocsAspire.Multitenancy.Infrastructure.Auditing;
+namespace Genocs.MultitenancyAspire.Infrastructure.Auditing;
 
 /// <summary>
 ///The type of trail.

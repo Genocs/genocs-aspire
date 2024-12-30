@@ -1,6 +1,6 @@
-﻿using GenocsAspire.Multitenancy.Infrastructure.Multitenancy;
+﻿using Genocs.MultitenancyAspire.Infrastructure.Multitenancy;
 
-namespace GenocsAspire.Multitenancy.Infrastructure.Persistence.Initialization;
+namespace Genocs.MultitenancyAspire.Infrastructure.Persistence.Initialization;
 
 internal interface IDatabaseInitializer
 {

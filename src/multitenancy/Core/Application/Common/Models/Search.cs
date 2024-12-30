@@ -1,4 +1,4 @@
-namespace GenocsAspire.Multitenancy.Application.Common.Models;
+namespace Genocs.MultitenancyAspire.Application.Common.Models;
 
 public class Search
 {

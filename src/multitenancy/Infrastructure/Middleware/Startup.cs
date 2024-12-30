@@ -2,7 +2,7 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace GenocsAspire.Multitenancy.Infrastructure.Middleware;
+namespace Genocs.MultitenancyAspire.Infrastructure.Middleware;
 
 internal static class Startup
 {

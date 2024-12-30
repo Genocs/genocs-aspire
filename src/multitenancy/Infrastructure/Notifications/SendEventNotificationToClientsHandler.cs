@@ -1,8 +1,8 @@
-﻿using GenocsAspire.Multitenancy.Application.Common.Events;
-using GenocsAspire.Multitenancy.Application.Common.Interfaces;
+﻿using Genocs.MultitenancyAspire.Application.Common.Events;
+using Genocs.MultitenancyAspire.Application.Common.Interfaces;
 using MediatR;
 
-namespace GenocsAspire.Multitenancy.Infrastructure.Notifications;
+namespace Genocs.MultitenancyAspire.Infrastructure.Notifications;
 
 /// <summary>
 /// Sends all events that are also an INotificationMessage to all clients.

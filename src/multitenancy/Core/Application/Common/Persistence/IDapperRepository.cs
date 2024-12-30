@@ -1,8 +1,6 @@
-using GenocsAspire.Multitenancy.Application.Common.Interfaces;
-using GenocsAspire.Multitenancy.Domain.Common.Contracts;
 using System.Data;
 
-namespace GenocsAspire.Multitenancy.Application.Common.Persistence;
+namespace Genocs.MultitenancyAspire.Application.Common.Persistence;
 
 public interface IDapperRepository : ITransientService
 {

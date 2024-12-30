@@ -1,8 +1,8 @@
 ﻿using Finbuckle.MultiTenant.EntityFrameworkCore.Stores.EFCoreStore;
-using GenocsAspire.Multitenancy.Infrastructure.Persistence.Configuration;
+using Genocs.MultitenancyAspire.Infrastructure.Persistence.Configuration;
 using Microsoft.EntityFrameworkCore;
 
-namespace GenocsAspire.Multitenancy.Infrastructure.Multitenancy;
+namespace Genocs.MultitenancyAspire.Infrastructure.Multitenancy;
 
 public class TenantDbContext : EFCoreStoreDbContext<GNXTenantInfo>
 {

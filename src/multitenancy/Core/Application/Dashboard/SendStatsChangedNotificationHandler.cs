@@ -1,9 +1,8 @@
-using GenocsAspire.Multitenancy.Domain.Common.Events;
-using GenocsAspire.Multitenancy.Domain.Identity;
-using GenocsAspire.Multitenancy.Shared.Events;
-using GenocsAspire.Multitenancy.Shared.Notifications;
+using Genocs.MultitenancyAspire.Domain.Common.Events;
+using Genocs.MultitenancyAspire.Domain.Identity;
+using Genocs.MultitenancyAspire.Shared.Events;
 
-namespace GenocsAspire.Multitenancy.Application.Dashboard;
+namespace Genocs.MultitenancyAspire.Application.Dashboard;
 
 public class SendStatsChangedNotificationHandler :
     IEventNotificationHandler<EntityCreatedEvent<Brand>>,
@@ -21,21 +20,21 @@ public class SendStatsChangedNotificationHandler :
         (_logger, _notifications) = (logger, notifications);
 
     public Task Handle(EventNotification<EntityCreatedEvent<Brand>> notification, CancellationToken cancellationToken) =>
-        SendStatsChangedNotification(notification.Event, cancellationToken);
+        SendStatsChangedNotificationAsync(notification.Event, cancellationToken);
     public Task Handle(EventNotification<EntityDeletedEvent<Brand>> notification, CancellationToken cancellationToken) =>
-        SendStatsChangedNotification(notification.Event, cancellationToken);
+        SendStatsChangedNotificationAsync(notification.Event, cancellationToken);
     public Task Handle(EventNotification<EntityCreatedEvent<Product>> notification, CancellationToken cancellationToken) =>
-        SendStatsChangedNotification(notification.Event, cancellationToken);
+        SendStatsChangedNotificationAsync(notification.Event, cancellationToken);
     public Task Handle(EventNotification<EntityDeletedEvent<Product>> notification, CancellationToken cancellationToken) =>
-        SendStatsChangedNotification(notification.Event, cancellationToken);
+        SendStatsChangedNotificationAsync(notification.Event, cancellationToken);
     public Task Handle(EventNotification<ApplicationRoleCreatedEvent> notification, CancellationToken cancellationToken) =>
-        SendStatsChangedNotification(notification.Event, cancellationToken);
+        SendStatsChangedNotificationAsync(notification.Event, cancellationToken);
     public Task Handle(EventNotification<ApplicationRoleDeletedEvent> notification, CancellationToken cancellationToken) =>
-        SendStatsChangedNotification(notification.Event, cancellationToken);
+        SendStatsChangedNotificationAsync(notification.Event, cancellationToken);
     public Task Handle(EventNotification<ApplicationUserCreatedEvent> notification, CancellationToken cancellationToken) =>
-        SendStatsChangedNotification(notification.Event, cancellationToken);
+        SendStatsChangedNotificationAsync(notification.Event, cancellationToken);
 
-    private Task SendStatsChangedNotification(IEvent @event, CancellationToken cancellationToken)
+    private Task SendStatsChangedNotificationAsync(IEvent @event, CancellationToken cancellationToken)
     {
         _logger.LogInformation("{event} Triggered => Sending StatsChangedNotification", @event.GetType().Name);
 

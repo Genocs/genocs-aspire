@@ -1,6 +1,4 @@
-using GenocsAspire.Multitenancy.Application.Common.Validation;
-
-namespace GenocsAspire.Multitenancy.Application.Common.FileStorage;
+namespace Genocs.MultitenancyAspire.Application.Common.FileStorage;
 
 public class FileUploadRequest
 {

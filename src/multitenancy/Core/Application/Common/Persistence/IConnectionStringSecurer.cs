@@ -1,4 +1,4 @@
-﻿namespace GenocsAspire.Multitenancy.Application.Common.Persistence;
+﻿namespace Genocs.MultitenancyAspire.Application.Common.Persistence;
 
 public interface IConnectionStringSecurer
 {

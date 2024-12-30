@@ -1,8 +1,8 @@
-using GenocsAspire.Multitenancy.Application.Common.Caching;
+using Genocs.MultitenancyAspire.Application.Common.Caching;
 using Microsoft.Extensions.Caching.Memory;
 using Microsoft.Extensions.Logging;
 
-namespace GenocsAspire.Multitenancy.Infrastructure.Caching;
+namespace Genocs.MultitenancyAspire.Infrastructure.Caching;
 
 public class LocalCacheService : ICacheService
 {

@@ -1,6 +1,6 @@
 using System.Text.RegularExpressions;
 
-namespace GenocsAspire.Multitenancy.Infrastructure.Common.Extensions;
+namespace Genocs.MultitenancyAspire.Infrastructure.Common.Extensions;
 
 public static class RegexExtensions
 {

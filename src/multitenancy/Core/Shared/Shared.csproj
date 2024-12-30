@@ -2,8 +2,8 @@
 
     <PropertyGroup>
         <TargetFramework>net9.0</TargetFramework>
-        <RootNamespace>GenocsAspire.Multitenancy.Shared</RootNamespace>
-        <AssemblyName>GenocsAspire.Multitenancy.Shared</AssemblyName>
+        <RootNamespace>Genocs.MultitenancyAspire.Shared</RootNamespace>
+        <AssemblyName>Genocs.MultitenancyAspire.Shared</AssemblyName>
         <IsPackable>false</IsPackable>
     </PropertyGroup>
 

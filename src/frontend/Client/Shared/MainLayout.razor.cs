@@ -1,8 +1,8 @@
-﻿using Genocs.BlazorWasm.Template.Infrastructure.Preferences;
+﻿using Genocs.BlazorAspire.Infrastructure.Preferences;
 using Microsoft.AspNetCore.Components;
 using MudBlazor;
 
-namespace Genocs.BlazorWasm.Template.Client.Shared;
+namespace Genocs.BlazorAspire.Client.Shared;
 
 public partial class MainLayout
 {

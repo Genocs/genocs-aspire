@@ -1,9 +1,9 @@
 ﻿using Ardalis.Specification;
-using GenocsAspire.Multitenancy.Application.Common.Persistence;
-using GenocsAspire.Multitenancy.Domain.Common.Contracts;
-using GenocsAspire.Multitenancy.Domain.Common.Events;
+using Genocs.MultitenancyAspire.Application.Common.Persistence;
+using Genocs.MultitenancyAspire.Domain.Common.Contracts;
+using Genocs.MultitenancyAspire.Domain.Common.Events;
 
-namespace GenocsAspire.Multitenancy.Infrastructure.Persistence.Repository;
+namespace Genocs.MultitenancyAspire.Infrastructure.Persistence.Repository;
 
 /// <summary>
 /// The repository that implements IRepositoryWithEvents.
@@ -56,8 +56,9 @@ public class EventAddingRepositoryDecorator<T> : IRepositoryWithEvents<T>
         where TId : notnull
         => _decorated.GetByIdAsync(id, cancellationToken);
 
+    // TODO: test this method
     public Task<T?> GetBySpecAsync<TSpec>(TSpec specification, CancellationToken cancellationToken = default)
-        where TSpec : ISingleResultSpecification, ISpecification<T>
+        where TSpec : ISingleResultSpecification<T>
         => _decorated.FirstOrDefaultAsync(specification, cancellationToken);
 
     public Task<TResult?> GetBySpecAsync<TResult>(ISpecification<T, TResult> specification, CancellationToken cancellationToken = default)

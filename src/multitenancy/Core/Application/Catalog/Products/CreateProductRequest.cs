@@ -1,8 +1,6 @@
-using GenocsAspire.Multitenancy.Application.Common.FileStorage;
-using GenocsAspire.Multitenancy.Application.Common.Persistence;
-using GenocsAspire.Multitenancy.Domain.Common.Events;
+using Genocs.MultitenancyAspire.Domain.Common.Events;
 
-namespace GenocsAspire.Multitenancy.Application.Catalog.Products;
+namespace Genocs.MultitenancyAspire.Application.Catalog.Products;
 
 public class CreateProductRequest : IRequest<DefaultIdType>
 {

@@ -1,9 +1,9 @@
-﻿using GenocsAspire.Multitenancy.Application.Common.Events;
-using GenocsAspire.Multitenancy.Application.Identity.Users;
-using GenocsAspire.Multitenancy.Domain.Identity;
+﻿using Genocs.MultitenancyAspire.Application.Common.Events;
+using Genocs.MultitenancyAspire.Application.Identity.Users;
+using Genocs.MultitenancyAspire.Domain.Identity;
 using Microsoft.AspNetCore.Identity;
 
-namespace GenocsAspire.Multitenancy.Infrastructure.Identity;
+namespace Genocs.MultitenancyAspire.Infrastructure.Identity;
 
 internal class InvalidateUserPermissionCacheHandler :
     IEventNotificationHandler<ApplicationUserUpdatedEvent>,

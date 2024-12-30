@@ -1,9 +1,9 @@
-﻿using Genocs.BlazorWasm.Template.Shared.Notifications;
+﻿using Genocs.BlazorAspire.Shared.Notifications;
 using MediatR;
 using MediatR.Courier;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Genocs.BlazorWasm.Template.Infrastructure.Notifications;
+namespace Genocs.BlazorAspire.Infrastructure.Notifications;
 
 internal static class Startup
 {

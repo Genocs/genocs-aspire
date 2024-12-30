@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace GenocsAspire.Multitenancy.Infrastructure.Persistence;
+namespace Genocs.MultitenancyAspire.Infrastructure.Persistence;
 
 public class DatabaseSettings : IValidatableObject
 {

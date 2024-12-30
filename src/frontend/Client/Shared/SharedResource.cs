@@ -1,4 +1,4 @@
-﻿namespace Genocs.BlazorWasm.Template.Client.Shared;
+﻿namespace Genocs.BlazorAspire.Client.Shared;
 
 public class SharedResource
 {

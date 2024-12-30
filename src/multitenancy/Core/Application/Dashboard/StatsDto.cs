@@ -1,4 +1,4 @@
-namespace GenocsAspire.Multitenancy.Application.Dashboard;
+namespace Genocs.MultitenancyAspire.Application.Dashboard;
 
 public class StatsDto
 {

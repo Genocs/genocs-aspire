@@ -2,7 +2,7 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace GenocsAspire.Multitenancy.Infrastructure.Cors;
+namespace Genocs.MultitenancyAspire.Infrastructure.Cors;
 
 internal static class Startup
 {

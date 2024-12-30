@@ -2,12 +2,13 @@
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 
-namespace GenocsAspire.Multitenancy.Infrastructure.Auth.Jwt;
+namespace Genocs.MultitenancyAspire.Infrastructure.Auth.Jwt;
 
 internal static class Startup
 {
     internal static IServiceCollection AddJwtAuth(this IServiceCollection services)
     {
+        // Add JwtSettings configuration and validation
         services.AddOptions<JwtSettings>()
             .BindConfiguration($"SecuritySettings:{nameof(JwtSettings)}")
             .ValidateDataAnnotations()

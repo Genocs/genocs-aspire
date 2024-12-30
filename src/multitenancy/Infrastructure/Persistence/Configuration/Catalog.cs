@@ -1,9 +1,9 @@
 ﻿using Finbuckle.MultiTenant;
-using GenocsAspire.Multitenancy.Domain.Catalog;
+using Genocs.MultitenancyAspire.Domain.Catalog;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace GenocsAspire.Multitenancy.Infrastructure.Persistence.Configuration;
+namespace Genocs.MultitenancyAspire.Infrastructure.Persistence.Configuration;
 
 public class BrandConfig : IEntityTypeConfiguration<Brand>
 {

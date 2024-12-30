@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 
-namespace GenocsAspire.Multitenancy.Infrastructure.Auth;
+namespace Genocs.MultitenancyAspire.Infrastructure.Auth;
 
 public class CurrentUserMiddleware : IMiddleware
 {

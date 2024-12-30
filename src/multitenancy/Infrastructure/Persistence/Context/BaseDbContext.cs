@@ -1,18 +1,18 @@
 using Finbuckle.MultiTenant.Abstractions;
 using Finbuckle.MultiTenant.EntityFrameworkCore;
-using GenocsAspire.Multitenancy.Application.Common.Events;
-using GenocsAspire.Multitenancy.Application.Common.Interfaces;
-using GenocsAspire.Multitenancy.Domain.Common.Contracts;
-using GenocsAspire.Multitenancy.Infrastructure.Auditing;
-using GenocsAspire.Multitenancy.Infrastructure.Identity;
-using GenocsAspire.Multitenancy.Infrastructure.Multitenancy;
+using Genocs.MultitenancyAspire.Application.Common.Events;
+using Genocs.MultitenancyAspire.Application.Common.Interfaces;
+using Genocs.MultitenancyAspire.Domain.Common.Contracts;
+using Genocs.MultitenancyAspire.Infrastructure.Auditing;
+using Genocs.MultitenancyAspire.Infrastructure.Identity;
+using Genocs.MultitenancyAspire.Infrastructure.Multitenancy;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using Microsoft.Extensions.Options;
 using System.Data;
 
-namespace GenocsAspire.Multitenancy.Infrastructure.Persistence.Context;
+namespace Genocs.MultitenancyAspire.Infrastructure.Persistence.Context;
 
 public abstract class BaseDbContext : MultiTenantIdentityDbContext<ApplicationUser, ApplicationRole, string, IdentityUserClaim<string>, IdentityUserRole<string>, IdentityUserLogin<string>, ApplicationRoleClaim, IdentityUserToken<string>>
 {

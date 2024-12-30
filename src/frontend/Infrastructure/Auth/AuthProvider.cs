@@ -1,4 +1,4 @@
-﻿namespace Genocs.BlazorWasm.Template.Infrastructure.Auth;
+﻿namespace Genocs.BlazorAspire.Infrastructure.Auth;
 
 public enum AuthProvider
 {

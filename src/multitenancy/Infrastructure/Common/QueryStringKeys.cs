@@ -1,4 +1,4 @@
-﻿namespace GenocsAspire.Multitenancy.Infrastructure.Common;
+﻿namespace Genocs.MultitenancyAspire.Infrastructure.Common;
 
 public static class QueryStringKeys
 {

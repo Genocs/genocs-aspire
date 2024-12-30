@@ -1,11 +1,11 @@
-using GenocsAspire.Multitenancy.Application.Common.Mailing;
+using Genocs.MultitenancyAspire.Application.Common.Mailing;
 using MailKit.Net.Smtp;
 using MailKit.Security;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using MimeKit;
 
-namespace GenocsAspire.Multitenancy.Infrastructure.Mailing;
+namespace Genocs.MultitenancyAspire.Infrastructure.Mailing;
 
 public class SmtpMailService : IMailService
 {

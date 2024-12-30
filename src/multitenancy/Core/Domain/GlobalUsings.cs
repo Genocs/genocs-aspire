@@ -1,1 +1,1 @@
-﻿
+﻿global using Genocs.MultitenancyAspire.Domain.Common.Contracts;

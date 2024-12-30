@@ -1,10 +1,10 @@
-using Genocs.BlazorWasm.Template.Client.Components.EntityTable;
-using Genocs.BlazorWasm.Template.Infrastructure.ApiClient;
+using Genocs.BlazorAspire.Client.Components.EntityTable;
+using Genocs.BlazorAspire.Infrastructure.ApiClient;
 using Mapster;
 using Microsoft.AspNetCore.Components;
 using MudBlazor;
 
-namespace Genocs.BlazorWasm.Template.Client.Pages.Personal;
+namespace Genocs.BlazorAspire.Client.Pages.Personal;
 
 public partial class AuditLogs
 {

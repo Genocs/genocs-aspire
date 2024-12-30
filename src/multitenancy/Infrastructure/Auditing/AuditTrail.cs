@@ -1,7 +1,7 @@
-using GenocsAspire.Multitenancy.Application.Common.Interfaces;
+using Genocs.MultitenancyAspire.Application.Common.Interfaces;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 
-namespace GenocsAspire.Multitenancy.Infrastructure.Auditing;
+namespace Genocs.MultitenancyAspire.Infrastructure.Auditing;
 
 public class AuditTrail
 {

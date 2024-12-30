@@ -1,6 +1,4 @@
-﻿using GenocsAspire.Multitenancy.Application.Common.Validation;
-
-namespace GenocsAspire.Multitenancy.Application.Multitenancy;
+﻿namespace Genocs.MultitenancyAspire.Application.Multitenancy;
 
 public class GetTenantRequest : IRequest<TenantDto>
 {

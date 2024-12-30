@@ -1,9 +1,9 @@
-using GenocsAspire.Multitenancy.Application.Common.Events;
-using GenocsAspire.Multitenancy.Shared.Events;
+using Genocs.MultitenancyAspire.Application.Common.Events;
+using Genocs.MultitenancyAspire.Shared.Events;
 using MediatR;
 using Microsoft.Extensions.Logging;
 
-namespace GenocsAspire.Multitenancy.Infrastructure.Common.Services;
+namespace Genocs.MultitenancyAspire.Infrastructure.Common.Services;
 
 public class EventPublisher : IEventPublisher
 {

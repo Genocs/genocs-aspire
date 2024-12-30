@@ -1,8 +1,7 @@
-﻿using GenocsAspire.Multitenancy.Application.Common.Persistence;
-using GenocsAspire.Multitenancy.Application.Identity.Roles;
-using GenocsAspire.Multitenancy.Application.Identity.Users;
+﻿using Genocs.MultitenancyAspire.Application.Identity.Roles;
+using Genocs.MultitenancyAspire.Application.Identity.Users;
 
-namespace GenocsAspire.Multitenancy.Application.Dashboard;
+namespace Genocs.MultitenancyAspire.Application.Dashboard;
 
 public class GetStatsRequest : IRequest<StatsDto>
 {

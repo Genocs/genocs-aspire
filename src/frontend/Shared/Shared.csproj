@@ -2,8 +2,8 @@
 
     <PropertyGroup>
         <TargetFrameworks>net9.0;net8.0;net7.0;net6.0</TargetFrameworks>
-        <RootNamespace>Genocs.BlazorWasm.Template.Shared</RootNamespace>
-        <AssemblyName>Genocs.BlazorWasm.Template.Shared</AssemblyName>
+        <RootNamespace>Genocs.BlazorAspire.Shared</RootNamespace>
+        <AssemblyName>Genocs.BlazorAspire.Shared</AssemblyName>
         <IsPackable>false</IsPackable>
     </PropertyGroup>
 

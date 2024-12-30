@@ -2,15 +2,15 @@
 using System.Reflection;
 using System.Text.Json;
 using System.Text.Json.Nodes;
-using Genocs.BlazorWasm.Template.Infrastructure.Auth;
-using Genocs.BlazorWasm.Template.Infrastructure.Common;
-using Genocs.BlazorWasm.Template.Infrastructure.Notifications;
-using Genocs.BlazorWasm.Template.Shared.Notifications;
+using Genocs.BlazorAspire.Infrastructure.Auth;
+using Genocs.BlazorAspire.Infrastructure.Common;
+using Genocs.BlazorAspire.Infrastructure.Notifications;
+using Genocs.BlazorAspire.Shared.Notifications;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.WebAssembly.Authentication;
 using Microsoft.AspNetCore.SignalR.Client;
 
-namespace Genocs.BlazorWasm.Template.Client.Components.Notifications;
+namespace Genocs.BlazorAspire.Client.Components.Notifications;
 
 public partial class NotificationConnection : IDisposable, IAsyncDisposable
 {

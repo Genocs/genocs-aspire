@@ -3,13 +3,12 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using NJsonSchema.Generation.TypeMappers;
 using NSwag;
 using NSwag.AspNetCore;
 using NSwag.Generation.Processors.Security;
 using ZymLabs.NSwag.FluentValidation;
 
-namespace GenocsAspire.Multitenancy.Infrastructure.OpenApi;
+namespace Genocs.MultitenancyAspire.Infrastructure.OpenApi;
 
 internal static class Startup
 {
@@ -19,7 +18,6 @@ internal static class Startup
         if (settings == null) return services;
         if (settings.Enable)
         {
-            services.AddVersionedApiExplorer(o => o.SubstituteApiVersionInUrl = true);
             services.AddEndpointsApiExplorer();
 
             services.AddScoped(provider =>

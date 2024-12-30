@@ -1,6 +1,6 @@
 using Microsoft.Extensions.Diagnostics.HealthChecks;
 
-namespace GenocsAspire.Multitenancy.Infrastructure.Multitenancy;
+namespace Genocs.MultitenancyAspire.Infrastructure.Multitenancy;
 
 public class TenantHealthCheck : IHealthCheck
 {

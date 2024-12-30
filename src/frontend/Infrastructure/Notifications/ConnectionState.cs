@@ -1,4 +1,4 @@
-﻿namespace Genocs.BlazorWasm.Template.Infrastructure.Notifications;
+﻿namespace Genocs.BlazorAspire.Infrastructure.Notifications;
 
 public enum ConnectionState
 {

@@ -1,4 +1,4 @@
-﻿namespace GenocsAspire.Multitenancy.Shared.Authorization;
+﻿namespace Genocs.MultitenancyAspire.Shared.Authorization;
 
 public static class GNXClaims
 {

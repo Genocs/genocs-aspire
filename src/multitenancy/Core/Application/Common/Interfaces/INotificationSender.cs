@@ -1,6 +1,4 @@
-﻿using GenocsAspire.Multitenancy.Shared.Notifications;
-
-namespace GenocsAspire.Multitenancy.Application.Common.Interfaces;
+﻿namespace Genocs.MultitenancyAspire.Application.Common.Interfaces;
 
 public interface INotificationSender : ITransientService
 {

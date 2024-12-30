@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Http;
 using Serilog;
 using Serilog.Context;
 
-namespace GenocsAspire.Multitenancy.Infrastructure.Middleware;
+namespace Genocs.MultitenancyAspire.Infrastructure.Middleware;
 
 public class RequestLoggingMiddleware : IMiddleware
 {

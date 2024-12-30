@@ -1,8 +1,8 @@
-using GenocsAspire.Multitenancy.Application.Identity.Users;
-using GenocsAspire.Multitenancy.Shared.Authorization;
+using Genocs.MultitenancyAspire.Application.Identity.Users;
+using Genocs.MultitenancyAspire.Shared.Authorization;
 using Microsoft.AspNetCore.Authorization;
 
-namespace GenocsAspire.Multitenancy.Infrastructure.Auth.Permissions;
+namespace Genocs.MultitenancyAspire.Infrastructure.Auth.Permissions;
 
 internal class PermissionAuthorizationHandler : AuthorizationHandler<PermissionRequirement>
 {

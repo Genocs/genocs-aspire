@@ -1,6 +1,4 @@
-﻿using GenocsAspire.Multitenancy.Application.Common.Persistence;
-
-namespace GenocsAspire.Multitenancy.Application.Catalog.Products;
+﻿namespace Genocs.MultitenancyAspire.Application.Catalog.Products;
 
 public class GetProductViaDapperRequest : IRequest<ProductDto>
 {

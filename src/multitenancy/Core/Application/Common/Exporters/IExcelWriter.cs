@@ -1,6 +1,4 @@
-﻿using GenocsAspire.Multitenancy.Application.Common.Interfaces;
-
-namespace GenocsAspire.Multitenancy.Application.Common.Exporters;
+﻿namespace Genocs.MultitenancyAspire.Application.Common.Exporters;
 
 public interface IExcelWriter : ITransientService
 {

@@ -1,4 +1,4 @@
-namespace GenocsAspire.Multitenancy.Application.Catalog.Products;
+namespace Genocs.MultitenancyAspire.Application.Catalog.Products;
 
 public class UpdateProductRequestValidator : CustomValidator<UpdateProductRequest>
 {

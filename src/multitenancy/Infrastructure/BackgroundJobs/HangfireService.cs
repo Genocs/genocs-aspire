@@ -1,8 +1,8 @@
-using GenocsAspire.Multitenancy.Application.Common.Interfaces;
-using Hangfire;
 using System.Linq.Expressions;
+using Genocs.MultitenancyAspire.Application.Common.Interfaces;
+using Hangfire;
 
-namespace GenocsAspire.Multitenancy.Infrastructure.BackgroundJobs;
+namespace Genocs.MultitenancyAspire.Infrastructure.BackgroundJobs;
 
 public class HangfireService : IJobService
 {

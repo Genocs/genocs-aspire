@@ -1,17 +1,17 @@
-using GenocsAspire.Multitenancy.Application.Common.Persistence;
-using GenocsAspire.Multitenancy.Domain.Common.Contracts;
-using GenocsAspire.Multitenancy.Infrastructure.Common;
-using GenocsAspire.Multitenancy.Infrastructure.Persistence.ConnectionString;
-using GenocsAspire.Multitenancy.Infrastructure.Persistence.Context;
-using GenocsAspire.Multitenancy.Infrastructure.Persistence.Initialization;
-using GenocsAspire.Multitenancy.Infrastructure.Persistence.Repository;
+using Genocs.MultitenancyAspire.Application.Common.Persistence;
+using Genocs.MultitenancyAspire.Domain.Common.Contracts;
+using Genocs.MultitenancyAspire.Infrastructure.Common;
+using Genocs.MultitenancyAspire.Infrastructure.Persistence.ConnectionString;
+using Genocs.MultitenancyAspire.Infrastructure.Persistence.Context;
+using Genocs.MultitenancyAspire.Infrastructure.Persistence.Initialization;
+using Genocs.MultitenancyAspire.Infrastructure.Persistence.Repository;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 using Pomelo.EntityFrameworkCore.MySql.Infrastructure;
 using Serilog;
 
-namespace GenocsAspire.Multitenancy.Infrastructure.Persistence;
+namespace Genocs.MultitenancyAspire.Infrastructure.Persistence;
 
 internal static class Startup
 {

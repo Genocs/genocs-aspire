@@ -1,6 +1,4 @@
-using GenocsAspire.Multitenancy.Domain.Common.Contracts;
-
-namespace GenocsAspire.Multitenancy.Domain.Catalog;
+namespace Genocs.MultitenancyAspire.Domain.Catalog;
 
 public class Product : AuditableEntity, IAggregateRoot
 {

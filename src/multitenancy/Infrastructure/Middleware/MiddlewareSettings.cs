@@ -1,4 +1,4 @@
-namespace GenocsAspire.Multitenancy.Infrastructure.Middleware;
+namespace Genocs.MultitenancyAspire.Infrastructure.Middleware;
 
 public class MiddlewareSettings
 {

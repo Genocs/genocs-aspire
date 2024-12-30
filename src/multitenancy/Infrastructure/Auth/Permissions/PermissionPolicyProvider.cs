@@ -1,8 +1,8 @@
-using GenocsAspire.Multitenancy.Shared.Authorization;
+using Genocs.MultitenancyAspire.Shared.Authorization;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.Extensions.Options;
 
-namespace GenocsAspire.Multitenancy.Infrastructure.Auth.Permissions;
+namespace Genocs.MultitenancyAspire.Infrastructure.Auth.Permissions;
 
 internal class PermissionPolicyProvider : IAuthorizationPolicyProvider
 {

@@ -1,6 +1,6 @@
 ﻿using FluentValidation.Validators;
 
-namespace GenocsAspire.Multitenancy.Application.Common.Validation;
+namespace Genocs.MultitenancyAspire.Application.Common.Validation;
 
 // SetValidator doesn't work when dealing with a nullable reference type
 // Use this SetNonNullableValidator extension method instead

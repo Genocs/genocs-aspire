@@ -1,11 +1,11 @@
-using GenocsAspire.Multitenancy.Infrastructure.Common.Extensions;
+using Genocs.MultitenancyAspire.Infrastructure.Common.Extensions;
 using Microsoft.Extensions.FileProviders;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Localization;
 using Microsoft.Extensions.Options;
 using OrchardCore.Localization;
 
-namespace GenocsAspire.Multitenancy.Infrastructure.Localization;
+namespace Genocs.MultitenancyAspire.Infrastructure.Localization;
 
 /// <summary>
 /// Provides PO files for GNX Localization.

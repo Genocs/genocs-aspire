@@ -1,7 +1,6 @@
-using GenocsAspire.Multitenancy.Application.Common.Interfaces;
-using GenocsAspire.Multitenancy.Shared.Events;
+using Genocs.MultitenancyAspire.Shared.Events;
 
-namespace GenocsAspire.Multitenancy.Application.Common.Events;
+namespace Genocs.MultitenancyAspire.Application.Common.Events;
 
 /// <summary>
 /// The event publisher interface.

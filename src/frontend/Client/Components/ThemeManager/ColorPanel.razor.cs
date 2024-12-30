@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Components;
 using MudBlazor;
 
-namespace Genocs.BlazorWasm.Template.Client.Components.ThemeManager;
+namespace Genocs.BlazorAspire.Client.Components.ThemeManager;
 
 public partial class ColorPanel
 {
@@ -17,7 +17,7 @@ public partial class ColorPanel
     [Parameter]
     public EventCallback<string> OnColorClicked { get; set; }
 
-    protected async Task ColorClicked(string color)
+    protected async Task Async(string color)
     {
         await OnColorClicked.InvokeAsync(color);
     }

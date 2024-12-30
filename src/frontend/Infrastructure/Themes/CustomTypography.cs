@@ -1,6 +1,6 @@
 ﻿using MudBlazor;
 
-namespace Genocs.BlazorWasm.Template.Infrastructure.Themes;
+namespace Genocs.BlazorAspire.Infrastructure.Themes;
 
 public static class CustomTypography
 {

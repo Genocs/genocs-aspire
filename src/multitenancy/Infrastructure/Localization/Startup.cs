@@ -5,7 +5,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using OrchardCore.Localization;
 
-namespace GenocsAspire.Multitenancy.Infrastructure.Localization;
+namespace Genocs.MultitenancyAspire.Infrastructure.Localization;
 
 internal static class Startup
 {

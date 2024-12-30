@@ -1,7 +1,7 @@
-using Genocs.BlazorWasm.Template.Infrastructure.Preferences;
+using Genocs.BlazorAspire.Infrastructure.Preferences;
 using Microsoft.AspNetCore.Components;
 
-namespace Genocs.BlazorWasm.Template.Client.Components.ThemeManager;
+namespace Genocs.BlazorAspire.Client.Components.ThemeManager;
 
 public partial class RadiusPanel
 {
@@ -20,7 +20,7 @@ public partial class RadiusPanel
         Radius = themePreference.BorderRadius;
     }
 
-    private async Task ChangedSelection(ChangeEventArgs args)
+    private async Task ChangedSelectionAsync(ChangeEventArgs args)
     {
         Radius = int.Parse(args?.Value?.ToString() ?? "0");
         await OnSliderChanged.InvokeAsync(Radius);

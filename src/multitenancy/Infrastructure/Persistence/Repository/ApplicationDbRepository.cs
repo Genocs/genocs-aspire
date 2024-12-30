@@ -1,11 +1,11 @@
 ﻿using Ardalis.Specification;
 using Ardalis.Specification.EntityFrameworkCore;
-using GenocsAspire.Multitenancy.Application.Common.Persistence;
-using GenocsAspire.Multitenancy.Domain.Common.Contracts;
-using GenocsAspire.Multitenancy.Infrastructure.Persistence.Context;
+using Genocs.MultitenancyAspire.Application.Common.Persistence;
+using Genocs.MultitenancyAspire.Domain.Common.Contracts;
+using Genocs.MultitenancyAspire.Infrastructure.Persistence.Context;
 using Mapster;
 
-namespace GenocsAspire.Multitenancy.Infrastructure.Persistence.Repository;
+namespace Genocs.MultitenancyAspire.Infrastructure.Persistence.Repository;
 
 /// <summary>
 /// Inherited from Ardalis.Specification's RepositoryBase of T.

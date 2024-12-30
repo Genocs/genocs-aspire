@@ -1,15 +1,15 @@
-﻿using Genocs.BlazorWasm.Template.Client.Components.EntityTable;
-using Genocs.BlazorWasm.Template.Infrastructure.ApiClient;
-using Genocs.BlazorWasm.Template.Infrastructure.Auth;
-using Genocs.BlazorWasm.Template.Client.Shared;
-using Genocs.BlazorWasm.Template.Shared.Authorization;
+﻿using Genocs.BlazorAspire.Client.Components.EntityTable;
+using Genocs.BlazorAspire.Infrastructure.ApiClient;
+using Genocs.BlazorAspire.Infrastructure.Auth;
+using Genocs.BlazorAspire.Client.Shared;
+using Genocs.BlazorAspire.Shared.Authorization;
 using Mapster;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Authorization;
 using MudBlazor;
 
-namespace Genocs.BlazorWasm.Template.Client.Pages.Multitenancy;
+namespace Genocs.BlazorAspire.Client.Pages.Multitenancy;
 
 public partial class Tenants
 {

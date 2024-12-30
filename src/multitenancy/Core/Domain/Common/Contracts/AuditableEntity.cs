@@ -1,4 +1,4 @@
-namespace GenocsAspire.Multitenancy.Domain.Common.Contracts;
+namespace Genocs.MultitenancyAspire.Domain.Common.Contracts;
 
 public abstract class AuditableEntity : AuditableEntity<DefaultIdType>
 {

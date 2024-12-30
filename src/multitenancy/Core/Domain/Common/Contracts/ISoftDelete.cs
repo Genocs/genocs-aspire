@@ -1,4 +1,4 @@
-namespace GenocsAspire.Multitenancy.Domain.Common.Contracts;
+namespace Genocs.MultitenancyAspire.Domain.Common.Contracts;
 
 /// <summary>
 /// This interface is used to mark entities as soft deletable.
