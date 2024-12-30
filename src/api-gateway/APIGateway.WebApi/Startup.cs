@@ -50,8 +50,14 @@ internal class Startup(IConfiguration configuration)
             .AddWebApi()
             .Build();
 
+        // Setup the Reverse Proxy
+        // Configure the Reverse Proxy to load the configuration from the appsettings.json file
+        // Default section is "ReverseProxy"
+        // Second option is to load the configuration from a MongoDB database
+
         services.AddReverseProxy()
-                .LoadFromDatabase(Configuration);
+                .LoadFromConfig(Configuration.GetSection("ReverseProxy"));
+                //.LoadFromDatabase(Configuration);
 
         //services.AddAuthorization(options =>
         //{

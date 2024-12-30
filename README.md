@@ -58,9 +58,9 @@ The solution is composed by a set of services:
 - Orders           https://localhost:5030  | http://localhost:5031
 - Notifications    https://localhost:5040  | http://localhost:5041
 
-- Multitenancy     https://localhost:5110  | http://localhost:5111 
-- Blazor Host      https://localhost:5500  | http://localhost:5501
-- Blazor Client    https://localhost:5510  | http://localhost:5511
+- Multitenancy     https://localhost:5700  | http://localhost:5701 
+- Blazor Host      https://localhost:5900  | http://localhost:5901
+- Blazor Client    https://localhost:5910  | http://localhost:5911
 
 
 ## The idea
